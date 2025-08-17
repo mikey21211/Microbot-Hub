@@ -8,13 +8,49 @@
             "microbot",
             "minigames"
         ],
-        "version": "2.2.4",
+        "version": "2.2.5",
         "minClientVersion": "1.9.6",
         "author": "Mocrosoft",
         "supportUrl": "https://github.com/chsami/microbot",
         "iconUrl": "https://oldschool.runescape.wiki/images/Pest_Control.png?ed7bb",
-        "sha256": "499060f41b5429a4ff1081e5fe9829a7192cfa928eeeb4d708f6f982c435d159",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pestcontrolplugin/2.2.4/pestcontrolplugin-2.2.4.jar"
+        "sha256": "9816a98eca006515dbf62826cb777e1ef0e252ff73804320c94cc1df768248cd",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pestcontrolplugin/2.2.5/pestcontrolplugin-2.2.5.jar"
+    },
+    {
+        "internalName": "ShootingStarPlugin",
+        "name": "ShootingStar",
+        "description": "Finds & Travels to shooting stars",
+        "tags": [
+            "mining",
+            "skilling",
+            "star",
+            "shooting"
+        ],
+        "version": "1.4.1",
+        "minClientVersion": "1.9.8",
+        "author": "g-mason0",
+        "supportUrl": "https://github.com/chsami/microbot",
+        "iconUrl": "",
+        "sha256": "1f02683f1ca84f5ec3be946c4b1a048bc91630ace0bc129c846f05cf744f0316",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/shootingstarplugin/1.4.1/shootingstarplugin-1.4.1.jar"
+    },
+    {
+        "internalName": "OuraniaPlugin",
+        "name": "Ourania Altar",
+        "description": "Microbot Ourania Altar plugin",
+        "tags": [
+            "runecrafting",
+            "skilling",
+            "ourania",
+            "zmi"
+        ],
+        "version": "1.4.1",
+        "minClientVersion": "1.9.8",
+        "author": "g-mason0",
+        "supportUrl": "https://github.com/chsami/microbot",
+        "iconUrl": "",
+        "sha256": "e021222c0e10e1c65bf1e33f4a96a50a3d8553bb1482dc351e9b3933011c73ea",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/ouraniaplugin/1.4.1/ouraniaplugin-1.4.1.jar"
     },
     {
         "internalName": "AnonymousPlugin",
@@ -26,12 +62,33 @@
             "hide",
             "anonymous"
         ],
-        "version": "1.0.0",
+        "version": "1.0.1",
         "minClientVersion": "1.9.6",
         "author": "Bolado",
         "supportUrl": "https://github.com/chsami/microbot",
         "iconUrl": "https://oldschool.runescape.wiki/images/Rogue_mask_chathead.png?0b359",
-        "sha256": "f7299b57956e35a02fb8ac5cc4ec8cd2fac22dde1937ea2faad8ed7da145d41d",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/anonymousplugin/1.0.0/anonymousplugin-1.0.0.jar"
+        "sha256": "f4b373dd23935efb7adfa412e7bba2f18efcb211c2251b5ec9141260abea06c8",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/anonymousplugin/1.0.1/anonymousplugin-1.0.1.jar"
+    },
+    {
+        "internalName": "BlessedWinePlugin",
+        "name": "Blessed Wine",
+        "description": "Automating Prayer Training using blessed wines at Cam Torum",
+        "tags": [
+            "blessed",
+            "wine",
+            "ralos",
+            "prayer",
+            "libation",
+            "microbot",
+            "automation"
+        ],
+        "version": "1.0.1",
+        "minClientVersion": "1.9.6",
+        "author": "Hal",
+        "supportUrl": "https://github.com/chsami/microbot",
+        "iconUrl": "https://oldschool.runescape.wiki/images/Jug_of_wine.png",
+        "sha256": "17298af44b02911b40e0ea4a16c8ce775807df51effd4c222f4f57412a941158",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/blessedwineplugin/1.0.1/blessedwineplugin-1.0.1.jar"
     }
 ]
