@@ -155,7 +155,7 @@
             "thieving",
             "skilling"
         ],
-        "version": "2.0.1",
+        "version": "2.0.2",
         "minClientVersion": "1.9.8.2",
         "authors": [
             "Mocrosoft",
@@ -165,8 +165,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/ThievingPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/ThievingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "0c03a92235f7815eb5c952b7ef1a3fd95eeb33275231035c7a85ac3204e0538d",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/thievingplugin/2.0.1/thievingplugin-2.0.1.jar"
+        "sha256": "5347eeb041c9e096c818d8e0b3f7af83716a972d2b9de7453f42a2e4f43cdaa3",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/thievingplugin/2.0.2/thievingplugin-2.0.2.jar"
     },
     {
         "internalName": "AnonymousPlugin",
