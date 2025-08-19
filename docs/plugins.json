@@ -5,19 +5,40 @@
         "description": "Supports all boats, portals, and shields.",
         "tags": [
             "pest control",
-            "microbot",
             "minigames"
         ],
-        "version": "2.2.5",
+        "version": "2.2.6",
         "minClientVersion": "1.9.6",
         "authors": [
             "Mocrosoft"
         ],
-        "iconUrl": "",
-        "cardUrl": "https://oldschool.runescape.wiki/images/Pest_Control.png?ed7bb",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/PestControlPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/PestControlPlugin/assets/card.png",
         "disable": false,
-        "sha256": "6f3279bf122df58341bed9637a3d1d4ff222f0377886ab0b1e367c4655bc0678",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pestcontrolplugin/2.2.5/pestcontrolplugin-2.2.5.jar"
+        "sha256": "612317f7a9399f836fc045ab949da924bf6dac8e6c1ec6ba46c381fe05073a37",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pestcontrolplugin/2.2.6/pestcontrolplugin-2.2.6.jar"
+    },
+    {
+        "internalName": "GEFiremakerPlugin",
+        "name": "GE Firemaker",
+        "description": "Uses logs on campfires around the Grand Exchange.",
+        "tags": [
+            "firemaking",
+            "campfire",
+            "grand",
+            "exchange",
+            "ge"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "1.9.6",
+        "authors": [
+            "StickToTheScript"
+        ],
+        "iconUrl": "",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/GEFiremakerPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "e805dddc093054d13609f77454b15a7a3f0e84c376b065be4a7db36f13fd2506",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gefiremakerplugin/1.0.0/gefiremakerplugin-1.0.0.jar"
     },
     {
         "internalName": "ShootingStarPlugin",
@@ -29,47 +50,93 @@
             "star",
             "shooting"
         ],
-        "version": "1.4.1",
+        "version": "1.4.2",
         "minClientVersion": "1.9.8",
         "authors": [
             "g-mason0"
         ],
-        "iconUrl": "",
-        "cardUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/ShootingStarPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/ShootingStarPlugin/assets/card.png",
         "disable": false,
-        "sha256": "4853a3c98b1107aecd9f960d932dbdc91349689066677305f34ff57847c53f1e",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/shootingstarplugin/1.4.1/shootingstarplugin-1.4.1.jar"
+        "sha256": "83d9ef6a410fc3e67e70f5a36ba62ce381fe0ed3555ece0cd51703fd9c002fb5",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/shootingstarplugin/1.4.2/shootingstarplugin-1.4.2.jar"
+    },
+    {
+        "internalName": "GECookerPlugin",
+        "name": "GE Cooker",
+        "description": "Cooks items on fires found at the Grand Exchange.",
+        "tags": [
+            "cooking",
+            "grand",
+            "exchange",
+            "ge",
+            "fish",
+            "raw"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "1.9.6",
+        "authors": [
+            "StickToTheScript"
+        ],
+        "iconUrl": "",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/GECookerPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "41cc042ea9509eff998889bcd8adf30ad07d06e1471b5f5e0b33b9d39a858f5b",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gecookerplugin/1.0.0/gecookerplugin-1.0.0.jar"
+    },
+    {
+        "internalName": "BarbarianVillageFisherPlugin",
+        "name": "Barb Village Fisher",
+        "description": "Fly and bait fish in Barbarian Village.",
+        "tags": [
+            "fish",
+            "fishing",
+            "fly",
+            "bait",
+            "barb",
+            "barbarian",
+            "village"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "1.9.6",
+        "authors": [
+            "StickToTheScript"
+        ],
+        "iconUrl": "",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/BarbarianVillageFisherPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "8bc39fb7c9eae4fc84c72310412b83244454b4ba04a79d99ba069dfe40b92cf8",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/barbarianvillagefisherplugin/1.0.0/barbarianvillagefisherplugin-1.0.0.jar"
     },
     {
         "internalName": "OuraniaPlugin",
         "name": "Ourania Altar",
-        "description": "Microbot Ourania Altar plugin",
+        "description": "Craft runes at the Ourania Altar",
         "tags": [
             "runecrafting",
             "skilling",
             "ourania",
             "zmi"
         ],
-        "version": "1.4.1",
+        "version": "1.4.2",
         "minClientVersion": "1.9.8",
         "authors": [
             "g-mason0"
         ],
-        "iconUrl": "",
-        "cardUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/OuraniaPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/OuraniaPlugin/assets/card.png",
         "disable": false,
-        "sha256": "a8a2b9996378a19633057187020270188f3b5734c208eb2100fec99045bbbb2c",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/ouraniaplugin/1.4.1/ouraniaplugin-1.4.1.jar"
+        "sha256": "31dd5b09a2531f085eaad8918f1b7336b1d4c768cc9146d9621c0ffdf6fb2f5c",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/ouraniaplugin/1.4.2/ouraniaplugin-1.4.2.jar"
     },
     {
         "internalName": "ExamplePlugin",
         "name": "Example",
         "description": "Microbot Example Plugin",
         "tags": [
-            "example",
-            "microbot"
+            "example"
         ],
-        "version": "1.1.0",
+        "version": "1.1.1",
         "minClientVersion": "1.9.8",
         "authors": [
             "Mocrosoft"
@@ -77,8 +144,8 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": true,
-        "sha256": "0b79f86e31732bee98f80207a139df8fef04500cfab47b4fb1e2e09aa9dc6524",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/exampleplugin/1.1.0/exampleplugin-1.1.0.jar"
+        "sha256": "d7a5f4841f92ad223000788d704340845412daa959fbcf29fbb464c573c3541f",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/exampleplugin/1.1.1/exampleplugin-1.1.1.jar"
     },
     {
         "internalName": "ThievingPlugin",
@@ -86,21 +153,20 @@
         "description": "Microbot thieving plugin",
         "tags": [
             "thieving",
-            "microbot",
             "skilling"
         ],
-        "version": "2",
+        "version": "2.0.1",
         "minClientVersion": "1.9.8.2",
         "authors": [
             "Mocrosoft",
             "Kryox",
             "Jesusfh"
         ],
-        "iconUrl": "",
-        "cardUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/ThievingPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/ThievingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "35f06824f1efa4ac5742e11f8bacd2e3cf7ca345b770ee7c44d286ce45a406a7",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/thievingplugin/2/thievingplugin-2.jar"
+        "sha256": "0c03a92235f7815eb5c952b7ef1a3fd95eeb33275231035c7a85ac3204e0538d",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/thievingplugin/2.0.1/thievingplugin-2.0.1.jar"
     },
     {
         "internalName": "AnonymousPlugin",
@@ -112,16 +178,16 @@
             "hide",
             "anonymous"
         ],
-        "version": "1.0.1",
+        "version": "1.0.2",
         "minClientVersion": "1.9.6",
         "authors": [
             "Bolado"
         ],
-        "iconUrl": "https://oldschool.runescape.wiki/images/Rogue_mask_chathead.png?0b359",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/AnonymousPlugin/assets/icon.png",
         "cardUrl": "",
         "disable": false,
-        "sha256": "9c1ec3c8817d8c06ec785b7b1c71c5019b4aa71c8198665f302a131b31fb2f0d",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/anonymousplugin/1.0.1/anonymousplugin-1.0.1.jar"
+        "sha256": "6e7d187ee6987e43add808716ff9fd99ea6758189701225edf041e6b9cf17020",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/anonymousplugin/1.0.2/anonymousplugin-1.0.2.jar"
     },
     {
         "internalName": "BlessedWinePlugin",
@@ -132,11 +198,9 @@
             "wine",
             "ralos",
             "prayer",
-            "libation",
-            "microbot",
-            "automation"
+            "libation"
         ],
-        "version": "1.0.1",
+        "version": "1.0.2",
         "minClientVersion": "1.9.6",
         "authors": [
             "Hal"
@@ -144,8 +208,8 @@
         "iconUrl": "https://oldschool.runescape.wiki/images/Jug_of_wine.png",
         "cardUrl": "",
         "disable": false,
-        "sha256": "4c454490248fb9a22154a5d6e02bf0be6bfd12332df8a270ff3f4e977f3666aa",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/blessedwineplugin/1.0.1/blessedwineplugin-1.0.1.jar"
+        "sha256": "c89e62f915ae29e2f8a08d7119caaffb5b9c7acde66a9d8d42263a4605866dc6",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/blessedwineplugin/1.0.2/blessedwineplugin-1.0.2.jar"
     },
     {
         "internalName": "MotherloadMinePlugin",
@@ -157,36 +221,55 @@
             "motherlode",
             "mlm"
         ],
-        "version": "1.8.0",
+        "version": "1.8.1",
         "minClientVersion": "1.9.8",
         "authors": [
             "Mocrosoft"
         ],
-        "iconUrl": "",
-        "cardUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/MotherloadMinePlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/MotherloadMinePlugin/assets/card.png",
         "disable": false,
-        "sha256": "8e3df1fe144576bf0b0be798c2d4510ca6de2b6936c413c6e32c30bfe3abca1a",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/motherloadmineplugin/1.8.0/motherloadmineplugin-1.8.0.jar"
+        "sha256": "973c88878a70c0a4967c70dcf7fff8bde77e0b393b30620eb48886fb73708515",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/motherloadmineplugin/1.8.1/motherloadmineplugin-1.8.1.jar"
     },
     {
         "internalName": "BankSellerPlugin",
-        "name": "[KSP's]Bank Seller",
+        "name": "Bank Seller",
         "description": "Withdraws tradeable bank items and sells them on the Grand Exchange",
         "tags": [
             "bank",
             "ge",
-            "seller",
-            "microbot"
+            "seller"
         ],
-        "version": "1.0.0",
+        "version": "1.0.1",
         "minClientVersion": "1.9.8",
         "authors": [
             "KSP"
         ],
-        "iconUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/BankSellerPlugin/assets/icon.png",
         "cardUrl": "",
         "disable": false,
-        "sha256": "e28dd9c929e8b7ee02e35efa0462ee083a90975924a32bec7d049ce67ca23df4",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/banksellerplugin/1.0.0/banksellerplugin-1.0.0.jar"
+        "sha256": "0f518d17d21fbd3ba0123b632ea6dd7f914642feed3770fbab2f75d80962a5d6",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/banksellerplugin/1.0.1/banksellerplugin-1.0.1.jar"
+    },
+    {
+        "internalName": "VarrockAnvilPlugin",
+        "name": "Varrock Anvil",
+        "description": "Smith items at the anvils in Varrock West.",
+        "tags": [
+            "smithing",
+            "varrock",
+            "anvil"
+        ],
+        "version": "1.0.2",
+        "minClientVersion": "1.9.6",
+        "authors": [
+            "StickToTheScript"
+        ],
+        "iconUrl": "",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/VarrockAnvilPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "6d99d4f394dba3bee5f93bdda30aa4c4f8fe339181532a0d8b85e1929ad5e3c2",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/varrockanvilplugin/1.0.2/varrockanvilplugin-1.0.2.jar"
     }
 ]
