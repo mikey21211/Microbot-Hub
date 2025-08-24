@@ -288,6 +288,26 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/anonymousplugin/1.0.3/anonymousplugin-1.0.3.jar"
     },
     {
+        "internalName": "ValeTotemPlugin",
+        "name": "Vale Totems",
+        "description": "Automated Vale Totems minigame bot with advanced optimizations",
+        "tags": [
+            "valetotems",
+            "fletching",
+            "minigame"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "1.9.7",
+        "authors": [
+            "Make"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/ValeTotemPlugin/assets/card.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/ValeTotemPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "542dbefe4b46d8b35583c138a3eb22fb3690f38aa0bc74d056c6cd345f683ffa",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/valetotemplugin/1.0.0/valetotemplugin-1.0.0.jar"
+    },
+    {
         "internalName": "MKE_WintertodtPlugin",
         "name": " AI-Wintertodt",
         "description": "Advanced Wintertodt bot with human-like behavior",
