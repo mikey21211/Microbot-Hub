@@ -141,7 +141,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/JewelleryEnchantPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/JewelleryEnchantPlugin/assets/card.png",
         "disable": false,
-        "sha256": "13d2719a8a38edcf8b29681c3f9fdc7b9c73a622c3136f8cb26fe6d7f6268abe",
+        "sha256": "4ec70cbb1ef98bee91a88bc6ad79cfb9763ce4af425b68919112e718a645b1d0",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/jewelleryenchantplugin/1.0.1/jewelleryenchantplugin-1.0.1.jar"
     },
     {
@@ -262,7 +262,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BonesToBananasPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BonesToBananasPlugin/assets/card.png",
         "disable": false,
-        "sha256": "8297c9c3e38a55eae80ad89c8a894f51a76b0401a81ae897a80ed914780ae504",
+        "sha256": "3bc025b4c2a5b30eabb4bf15c88bc28d443416c53bd5813910510667eadbb225",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/bonestobananasplugin/1.0.1/bonestobananasplugin-1.0.1.jar"
     },
     {
