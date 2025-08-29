@@ -71,7 +71,7 @@
             "skills",
             "minigame"
         ],
-        "version": "1.0.0",
+        "version": "1.0.1",
         "minClientVersion": "1.9.8.8",
         "authors": [
             "Mocrosoft"
@@ -79,8 +79,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/TitheFarmingPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/TitheFarmingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "72a55f31b7c86d4f7bfee9b7b6fc0a1bbcf55dc094eba603f8eed32734911aa1",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/tithefarmingplugin/1.0.0/tithefarmingplugin-1.0.0.jar"
+        "sha256": "37191e9487f53a0ea7fee6fc548a87bdb435fc2ccf234e258d78e246ccd2f29d",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/tithefarmingplugin/1.0.1/tithefarmingplugin-1.0.1.jar"
     },
     {
         "internalName": "AutoFishingPlugin",
@@ -141,7 +141,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/JewelleryEnchantPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/JewelleryEnchantPlugin/assets/card.png",
         "disable": false,
-        "sha256": "4ec70cbb1ef98bee91a88bc6ad79cfb9763ce4af425b68919112e718a645b1d0",
+        "sha256": "13d2719a8a38edcf8b29681c3f9fdc7b9c73a622c3136f8cb26fe6d7f6268abe",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/jewelleryenchantplugin/1.0.1/jewelleryenchantplugin-1.0.1.jar"
     },
     {
@@ -173,7 +173,7 @@
             "jad",
             "microbot"
         ],
-        "version": "1.0.5",
+        "version": "1.0.6",
         "minClientVersion": "1.9.8.8",
         "authors": [
             "Mocrosoft"
@@ -181,8 +181,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/JadPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/JadPlugin/assets/card.png",
         "disable": false,
-        "sha256": "e3d060e61f5480edaaa4eca7ece2ca7381fc367a454030e0ef7bfec10c5d0dd2",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/jadplugin/1.0.5/jadplugin-1.0.5.jar"
+        "sha256": "a968e66b478f8f353f8875c63e43be5dbb45612cbb543418ccd2bb48ff3d1159",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/jadplugin/1.0.6/jadplugin-1.0.6.jar"
     },
     {
         "internalName": "AutoChompyKillerPlugin",
@@ -212,7 +212,7 @@
             "skilling",
             "processing"
         ],
-        "version": "1.0.1",
+        "version": "1.0.2",
         "minClientVersion": "1.9.8",
         "authors": [
             "Unknown"
@@ -220,8 +220,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoBankStanderPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoBankStanderPlugin/assets/card.png",
         "disable": false,
-        "sha256": "60a0e36c7f31dbafe5c7e168b63f568b48b057a446a671bf26fde123ba6eca77",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autobankstanderplugin/1.0.1/autobankstanderplugin-1.0.1.jar"
+        "sha256": "bcc212ec17b06be147d9d9e101f644d39c3656dd7850da60c5c9107bd97f4655",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autobankstanderplugin/1.0.2/autobankstanderplugin-1.0.2.jar"
     },
     {
         "internalName": "VarrockAnvilPlugin",
@@ -232,16 +232,16 @@
             "varrock",
             "anvil"
         ],
-        "version": "1.0.2",
+        "version": "1.0.3",
         "minClientVersion": "1.9.6",
         "authors": [
             "StickToTheScript"
         ],
-        "iconUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/VarrockAnvilPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/VarrockAnvilPlugin/assets/card.png",
         "disable": false,
-        "sha256": "92b225ce317f3374281b3c21c5de930f23607a589e70bde9bc82637fb45f460c",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/varrockanvilplugin/1.0.2/varrockanvilplugin-1.0.2.jar"
+        "sha256": "504ad11cc3c49c308620fec6691dc799df2c62aa8c214cff8f85d3fa391fead2",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/varrockanvilplugin/1.0.3/varrockanvilplugin-1.0.3.jar"
     },
     {
         "internalName": "BonesToBananasPlugin",
@@ -262,7 +262,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BonesToBananasPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BonesToBananasPlugin/assets/card.png",
         "disable": false,
-        "sha256": "3bc025b4c2a5b30eabb4bf15c88bc28d443416c53bd5813910510667eadbb225",
+        "sha256": "8297c9c3e38a55eae80ad89c8a894f51a76b0401a81ae897a80ed914780ae504",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/bonestobananasplugin/1.0.1/bonestobananasplugin-1.0.1.jar"
     },
     {
@@ -359,16 +359,16 @@
             "ge",
             "seller"
         ],
-        "version": "1.0.1",
+        "version": "1.0.2",
         "minClientVersion": "1.9.8",
         "authors": [
             "KSP"
         ],
-        "iconUrl": "https://chsami.github.io/Microbot-Hub/BankSellerPlugin/assets/icon.png",
-        "cardUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/BankSellerPlugin/assets/bank.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/BankSellerPlugin/assets/card.png",
         "disable": false,
-        "sha256": "8c4b9b73d0a615a35bac1e26a0c8b9e28299e0f43459de863b940a9512351094",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/banksellerplugin/1.0.1/banksellerplugin-1.0.1.jar"
+        "sha256": "b291e08bae2a0e8248725523c25884e8b0ded0921e69f4cf6eae359e06aaa4eb",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/banksellerplugin/1.0.2/banksellerplugin-1.0.2.jar"
     },
     {
         "internalName": "TheMessPlugin",
@@ -441,16 +441,16 @@
             "exchange",
             "ge"
         ],
-        "version": "1.0.0",
+        "version": "1.0.1",
         "minClientVersion": "1.9.6",
         "authors": [
             "StickToTheScript"
         ],
-        "iconUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/GEFiremakerPlugin/assets/firemaking.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/GEFiremakerPlugin/assets/card.png",
         "disable": false,
-        "sha256": "2fcf2a5c3e635440c29d82127f75747702ee9d0ce02e2cc8ca62a2bb7c6ebf6c",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gefiremakerplugin/1.0.0/gefiremakerplugin-1.0.0.jar"
+        "sha256": "fc89805271a4489834260abf274ebde133d9ee8e332c581794c4d79b6b399436",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gefiremakerplugin/1.0.1/gefiremakerplugin-1.0.1.jar"
     },
     {
         "internalName": "ExamplePlugin",
@@ -502,16 +502,16 @@
             "fish",
             "raw"
         ],
-        "version": "1.0.0",
+        "version": "1.0.1",
         "minClientVersion": "1.9.6",
         "authors": [
             "StickToTheScript"
         ],
-        "iconUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/GECookerPlugin/assets/cooking.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/GECookerPlugin/assets/card.png",
         "disable": false,
-        "sha256": "d7010632aba9f9487dde07c18b8442212eaf9336bf447f8fb94df3c5441d5aa3",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gecookerplugin/1.0.0/gecookerplugin-1.0.0.jar"
+        "sha256": "b9bdd91e693a683a5f8a6b01dca17707a1e3b14151d808286a3d71800a98cfe0",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gecookerplugin/1.0.1/gecookerplugin-1.0.1.jar"
     },
     {
         "internalName": "ValeTotemPlugin",
@@ -589,15 +589,15 @@
             "barbarian",
             "village"
         ],
-        "version": "1.0.0",
+        "version": "1.0.1",
         "minClientVersion": "1.9.6",
         "authors": [
             "StickToTheScript"
         ],
-        "iconUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/BarbarianVillageFisherPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BarbarianVillageFisherPlugin/assets/card.png",
         "disable": false,
-        "sha256": "2b2a0676ed8b54785597cbf8d2ed3e8507f7201d20dc85ce63764b69262b2f18",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/barbarianvillagefisherplugin/1.0.0/barbarianvillagefisherplugin-1.0.0.jar"
+        "sha256": "c2e23a7ff43753af4de7907320cfa09d0ae588b93a464d1e38ddee26dd600881",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/barbarianvillagefisherplugin/1.0.1/barbarianvillagefisherplugin-1.0.1.jar"
     }
 ]
