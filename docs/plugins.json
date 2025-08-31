@@ -71,7 +71,7 @@
             "skills",
             "minigame"
         ],
-        "version": "1.0.1",
+        "version": "1.1.0",
         "minClientVersion": "1.9.8.8",
         "authors": [
             "Mocrosoft"
@@ -79,8 +79,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/TitheFarmingPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/TitheFarmingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "37191e9487f53a0ea7fee6fc548a87bdb435fc2ccf234e258d78e246ccd2f29d",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/tithefarmingplugin/1.0.1/tithefarmingplugin-1.0.1.jar"
+        "sha256": "b6154962c618ee944346f6cadd90c7f63c0c9374f96335608487642b89e0a2e2",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/tithefarmingplugin/1.1.0/tithefarmingplugin-1.1.0.jar"
     },
     {
         "internalName": "AutoFishingPlugin",
@@ -307,25 +307,6 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/wildernessagilityplugin/1.5.1/wildernessagilityplugin-1.5.1.jar"
     },
     {
-        "internalName": "AutoHerbiboarPlugin",
-        "name": "Herbiboar",
-        "description": "Automaticalli hunts herbiboars with trail tracking and banking support",
-        "tags": [
-            "skilling",
-            "hunter"
-        ],
-        "version": "1.1.1",
-        "minClientVersion": "1.9.8",
-        "authors": [
-            "Unknown"
-        ],
-        "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoHerbiboarPlugin/assets/icon.png",
-        "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoHerbiboarPlugin/assets/card.png",
-        "disable": false,
-        "sha256": "ce0cc5899eba35fa579b439dfaa54d40ea11777e0f4390dd15f3bd423dad9f32",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autoherbiboarplugin/1.1.1/autoherbiboarplugin-1.1.1.jar"
-    },
-    {
         "internalName": "TowerOfLifeCCPlugin",
         "name": " Creature Creation",
         "description": "Automates the creature creation process within the Tower of Life basement.",
@@ -389,6 +370,26 @@
         "disable": false,
         "sha256": "71d46d529ad255655ea5c183c3edd2a5973ffb2890bb65dea68ba1712eaff928",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/themessplugin/1.0.2/themessplugin-1.0.2.jar"
+    },
+    {
+        "internalName": "HerbiboarPlugin",
+        "name": "Herbiboar",
+        "description": "Automatically hunts herbiboars with trail tracking and banking support",
+        "tags": [
+            "skilling",
+            "hunter",
+            "herbiboar"
+        ],
+        "version": "1.2.0",
+        "minClientVersion": "1.9.8",
+        "authors": [
+            "AI Agent"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/HerbiboarPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/HerbiboarPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "1ed68debf0d5388f9baa3d556e9a00e2730bd0382e335b89fc7fd80bd3a08c86",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/herbiboarplugin/1.2.0/herbiboarplugin-1.2.0.jar"
     },
     {
         "internalName": "NmzPlugin",
