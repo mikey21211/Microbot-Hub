@@ -458,7 +458,7 @@
             "hunter",
             "herbiboar"
         ],
-        "version": "1.2.3",
+        "version": "1.2.4",
         "minClientVersion": "1.9.8",
         "authors": [
             "AI Agent"
@@ -466,8 +466,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/HerbiboarPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/HerbiboarPlugin/assets/card.png",
         "disable": false,
-        "sha256": "f5e20265108979bd1d6fcc7c9f914c265f75ecf89593984001d30a86852f30ad",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/herbiboarplugin/1.2.3/herbiboarplugin-1.2.3.jar"
+        "sha256": "847c060b3827633716c4337637c90bcde44ff13d9d2a9b62201f968c438a7395",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/herbiboarplugin/1.2.4/herbiboarplugin-1.2.4.jar"
     },
     {
         "internalName": "NmzPlugin",
