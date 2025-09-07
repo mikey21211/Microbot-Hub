@@ -48,7 +48,7 @@
             "motherlode",
             "mlm"
         ],
-        "version": "1.8.1",
+        "version": "1.8.2",
         "minClientVersion": "1.9.8",
         "authors": [
             "Mocrosoft"
@@ -56,8 +56,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/MotherloadMinePlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/MotherloadMinePlugin/assets/card.png",
         "disable": false,
-        "sha256": "1d8d813f79ce21bce2926cd1549920d1200a99d2cedf05bf70afef94761c7f4b",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/motherloadmineplugin/1.8.1/motherloadmineplugin-1.8.1.jar"
+        "sha256": "3292063abfbc10149371442da29fbdd8cd5a86c76bb406e0acd3bf062a7613a6",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/motherloadmineplugin/1.8.2/motherloadmineplugin-1.8.2.jar"
     },
     {
         "internalName": "ShootingStarPlugin",
