@@ -170,7 +170,7 @@
             "fishing",
             "skilling"
         ],
-        "version": "1.0.3",
+        "version": "1.0.4",
         "minClientVersion": "1.9.8",
         "authors": [
             "AI Agent"
@@ -178,8 +178,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoFishingPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoFishingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "07664d8e9e13f202dadfcf130c20c28286959f5ac442e0799e6a5d542e271d29",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autofishingplugin/1.0.3/autofishingplugin-1.0.3.jar"
+        "sha256": "75ee68724e62afcbf9911f0e4472f06806fa76dc79605e28d453e9f49bfb360f",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autofishingplugin/1.0.4/autofishingplugin-1.0.4.jar"
     },
     {
         "internalName": "SulphurNaguaPlugin",
