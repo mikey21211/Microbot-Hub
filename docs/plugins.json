@@ -39,6 +39,26 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/revkillerplugin/2.0.2/revkillerplugin-2.0.2.jar"
     },
     {
+        "internalName": "PiePlugin",
+        "name": "Pie Shell Maker",
+        "description": "Nate's Pie Shell Maker",
+        "tags": [
+            "MoneyMaking",
+            "nate",
+            "pies"
+        ],
+        "version": "1.2.0",
+        "minClientVersion": "2.0.7",
+        "authors": [
+            "Nate"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/PiePlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/PiePlugin/assets/card.png",
+        "disable": false,
+        "sha256": "de98819acf463832b9bcce75677d5b5e1d142a47e2437ca85a54e3cec0a9c656",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pieplugin/1.2.0/pieplugin-1.2.0.jar"
+    },
+    {
         "internalName": "AutoEssenceMiningPlugin",
         "name": "Essence Mining",
         "description": "Mines Rune/Pure Essence...",
@@ -163,6 +183,26 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/cannonballsmelterplugin/1.1.0/cannonballsmelterplugin-1.1.0.jar"
     },
     {
+        "internalName": "ArrowPlugin",
+        "name": "Arrow Maker",
+        "description": "Nate's Arrow Maker",
+        "tags": [
+            "MoneyMaking",
+            "nate",
+            "Arrow"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.7",
+        "authors": [
+            "Nate"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/ArrowPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/ArrowPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "c53f48a625ac0191af88ef2c1468da29e1c03c49ef04d49b49169f2719ad718d",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/arrowplugin/1.0.0/arrowplugin-1.0.0.jar"
+    },
+    {
         "internalName": "AutoFishingPlugin",
         "name": "Fishing",
         "description": "Automated fishing plugin with banking support",
@@ -180,6 +220,25 @@
         "disable": false,
         "sha256": "75ee68724e62afcbf9911f0e4472f06806fa76dc79605e28d453e9f49bfb360f",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autofishingplugin/1.0.4/autofishingplugin-1.0.4.jar"
+    },
+    {
+        "internalName": "BanksShopperPlugin",
+        "name": "Bank's Shopper",
+        "description": "Bank's Auto Shopper",
+        "tags": [
+            "shopper",
+            "bank.js"
+        ],
+        "version": "1.4.0",
+        "minClientVersion": "2.0.7",
+        "authors": [
+            "Bankjs"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/BanksShopperPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/BanksShopperPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "a9a901b82eb0842943e05903aa264584ca5855a1864458e13fd184859b4b5c1b",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/banksshopperplugin/1.4.0/banksshopperplugin-1.4.0.jar"
     },
     {
         "internalName": "SulphurNaguaPlugin",
@@ -385,6 +444,27 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/baggedplantsplugin/1.0.0/baggedplantsplugin-1.0.0.jar"
     },
     {
+        "internalName": "AutoBuyerPlugin",
+        "name": "GE Buyer",
+        "description": "Acun's GE buyer. Give a list of items to buy",
+        "tags": [
+            "buy",
+            "buyer",
+            "grand exchange",
+            "ge"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.7",
+        "authors": [
+            "Acun"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoBuyerPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoBuyerPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "db76fba16658fdc9b4e977281dc6d01f6f069ff2f6cc07897ee62dd0adbe322f",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autobuyerplugin/1.0.0/autobuyerplugin-1.0.0.jar"
+    },
+    {
         "internalName": "BonesToBananasPlugin",
         "name": "Bones to Bananas",
         "description": "Casts Bones to Bananas, using staves to save runes.",
@@ -466,6 +546,28 @@
         "disable": false,
         "sha256": "aa98d52129af98e9c86948d3a5caad4c6230187b5f558c3a3a2ca6b1033b0894",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/npctannerplugin/2.0.1/npctannerplugin-2.0.1.jar"
+    },
+    {
+        "internalName": "BanksBankStanderPlugin",
+        "name": "Bank's BankStander",
+        "description": "For Skilling at the Bank",
+        "tags": [
+            "bankstander",
+            "bank.js",
+            "bank",
+            "eXioStorm",
+            "storm"
+        ],
+        "version": "2.1.0",
+        "minClientVersion": "2.0.7",
+        "authors": [
+            "Bankjs"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/BanksBankStanderPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/BanksBankStanderPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "efd97e9fe8c7c0d0e1e7280f987ffed3c4a555c877b60ad45ecc917f4fdd130d",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/banksbankstanderplugin/2.1.0/banksbankstanderplugin-2.1.0.jar"
     },
     {
         "internalName": "BarrowsPlugin",
@@ -613,6 +715,25 @@
         "disable": false,
         "sha256": "9f52c3c9cec25019beda631a00a557b0a9273ced804685d492014cb9c192b235",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/chartercrafterplugin/1.0.0/chartercrafterplugin-1.0.0.jar"
+    },
+    {
+        "internalName": "HouseThievingPlugin",
+        "name": "House Thieving",
+        "description": "House Thieving",
+        "tags": [
+            "thieving",
+            "house thieving"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.7",
+        "authors": [
+            "Maxxin"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/HouseThievingPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/HouseThievingPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "42db256e599d99aecbd288fbc1685b3217dd7d2e158e99b9f19dc02fc18e3ccc",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/housethievingplugin/1.0.0/housethievingplugin-1.0.0.jar"
     },
     {
         "internalName": "HerbiboarPlugin",
@@ -798,6 +919,49 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/exampleplugin/1.1.1/exampleplugin-1.1.1.jar"
     },
     {
+        "internalName": "AstralRunesPlugin",
+        "name": "Astral Runes",
+        "description": "Astral Runes",
+        "tags": [
+            "astral",
+            "rune",
+            "microbot"
+        ],
+        "version": "1.0.2",
+        "minClientVersion": "2.0.7",
+        "authors": [
+            "Maxxin"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/AstralRunesPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/AstralRunesPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "49bf6599f15cc96e638523cac7dbadd75584503ed3a7391e8ebbae87ce1cfc30",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/astralrunesplugin/1.0.2/astralrunesplugin-1.0.2.jar"
+    },
+    {
+        "internalName": "AIOFighterPlugin",
+        "name": "AIO Fighter",
+        "description": "Microbot AIO Fighter plugin",
+        "tags": [
+            "fight",
+            "microbot",
+            "misc",
+            "combat",
+            "playerassistant"
+        ],
+        "version": "2.0.3 BETA",
+        "minClientVersion": "1.9.6",
+        "authors": [
+            "Mocrosoft",
+            "See1Duck"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/AnonymousPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/AnonymousPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "d0dac1bc63bdb00db27e888b5d7202b6de26837db08f1b8149a9902c76d59f45",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/aiofighterplugin/2.0.3 BETA/aiofighterplugin-2.0.3 BETA.jar"
+    },
+    {
         "internalName": "MKE_WintertodtPlugin",
         "name": " AI-Wintertodt",
         "description": "Advanced Wintertodt bot with human-like behavior",
@@ -861,6 +1025,26 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/valetotemplugin/1.0.3/valetotemplugin-1.0.3.jar"
     },
     {
+        "internalName": "AnimatedArmourPlugin",
+        "name": "Animated Armour Killer & ",
+        "description": "Builds, Kills, and loots animated armour and warrior guild tokens.",
+        "tags": [
+            "animated armour",
+            "microbot",
+            "warrior guild"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.7",
+        "authors": [
+            "Bolado"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/AnimatedArmourPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/AnonymousPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "f9af643fb24f534a2896b25a69dce215783a77b8e419af8bfa964449d2786fd3",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/animatedarmourplugin/1.0.0/animatedarmourplugin-1.0.0.jar"
+    },
+    {
         "internalName": "BlessedWinePlugin",
         "name": "Blessed Wine",
         "description": "Automating Prayer Training using blessed wines at Cam Torum",
@@ -881,6 +1065,48 @@
         "disable": false,
         "sha256": "ec7486158f340f57ac5c146ac6f4f975e9b98779ca23954712af98d52fa5699a",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/blessedwineplugin/1.0.2/blessedwineplugin-1.0.2.jar"
+    },
+    {
+        "internalName": "WinePlugin",
+        "name": "Wine Maker",
+        "description": "Nate's Wine Maker",
+        "tags": [
+            "skilling",
+            "nate",
+            "wine",
+            "cooking"
+        ],
+        "version": "1.1.1",
+        "minClientVersion": "2.0.7",
+        "authors": [
+            "Nate"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/WinePlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/WinePlugin/assets/card.png",
+        "disable": false,
+        "sha256": "342fc7aa070ea2dc78eb3e96b553b31afa6c01cc251f4e846e2deb1ea9809d13",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/wineplugin/1.1.1/wineplugin-1.1.1.jar"
+    },
+    {
+        "internalName": "BankTabSorterPlugin",
+        "name": "Bank Tab Sorter",
+        "description": "Sorts the current bank tab  using an advanced heuristic algorithm",
+        "tags": [
+            "bank",
+            "sort",
+            "microbot",
+            "tab"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.7",
+        "authors": [
+            "unknown"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/BanksShopperPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/BanksShopperPlugin/assets/card.png",
+        "disable": false,
+        "sha256": "6f3fd730f0dc678c371b9a4367c8673b4f8dc8b3df9ea9bbbd7fa153a6c6b46e",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/banktabsorterplugin/1.0.0/banktabsorterplugin-1.0.0.jar"
     },
     {
         "internalName": "FletchingPlugin",
