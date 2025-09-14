@@ -1,102 +1,46 @@
-﻿# Daily Tasks Plugin
+﻿# Combat Hotkeys Plugin
 
-The **Daily Tasks Plugin** is an automation tool for Old School RuneScape, designed to help players efficiently complete their daily in-game activities. Built for the Microbot RuneLite client, this plugin automates the process of tracking, managing, and completing daily tasks, ensuring you never miss out on valuable rewards and experience.
+The **Combat Hotkeys Plugin** is a RuneLite plugin for the Microbot framework that automates and streamlines combat actions in Old School RuneScape (OSRS) using customizable hotkeys. It is designed to help players quickly switch prayers, gear, or special attacks with a single key press, improving efficiency and reaction time during combat.
 
 ---
 
 ## Features
 
-- **Automated Daily Task Completion:**  
-  Automatically performs a variety of daily activities, such as collecting resources, visiting NPCs, or completing routine actions.
-
-- **Task Tracking and Management:**  
-  Keeps track of which daily tasks have been completed and which are still pending, helping you stay organized.
-
-- **Overlay Display:**  
-  Real-time overlay shows current status, tasks completed, tasks remaining, and other useful stats.
-
-- **Configurable Options:**  
-  Users can select which daily tasks to automate, enable/disable the overlay, and adjust advanced behaviors in the configuration panel.
-
-- **Failsafes and Error Handling:**  
-  Handles running out of required items, full inventory, or unexpected in-game events.
+- **Customizable Hotkeys:** Assign hotkeys to various combat actions such as prayer switching, gear swapping, or activating special attacks.
+- **Overlay Display:** Shows active hotkeys and their corresponding actions in an in-game overlay for easy reference.
+- **Fast Reaction:** Instantly performs configured actions when a hotkey is pressed, reducing manual clicks and improving combat performance.
+- **Safe Start/Stop:** Easily enable or disable the script from the sidebar panel.
 
 ---
 
 ## How It Works
 
-1. **Configuration:**  
-   Select which daily tasks you want to automate in the plugin panel.
-
-2. **Startup:**  
-   The plugin checks your progress and inventory, preparing for the selected daily tasks.
-
-3. **Automation Loop:**  
-   The script performs the selected daily tasks, manages inventory, and tracks completion status.
-
-4. **Overlay:**  
-   Displays real-time information such as:
-    - Current action (e.g., "Collecting", "Visiting NPC", "Banking")
-    - Tasks completed and remaining
-    - Runtime and efficiency stats
-
-5. **Failsafes:**  
-   Pauses or stops if requirements are not met, or if unexpected events occur.
-
----
-
-## Configuration
-
-The plugin provides a configuration panel (`DailyTasksConfig`) where you can:
-
-- Select which daily tasks to automate
-- Enable or disable the overlay
-- Adjust advanced options (delays, anti-patterns, etc.)
+1. **Configure:** Set your preferred hotkeys and actions in the plugin configuration.
+2. **Start:** Enable the plugin and start the script from the sidebar.
+3. **Automate:** Press your configured hotkeys during combat to:
+    - Switch prayers
+    - Swap gear
+    - Activate special attacks
+    - Perform other configured actions
+    - View current hotkey status in the overlay
+4. **Stop:** You can stop the script at any time from the panel.
 
 ---
 
 ## Requirements
 
 - Microbot RuneLite client
-- Required items or access for specific daily tasks
 
 ---
 
-## Usage
+## Disclaimer
 
-1. **Enable the Plugin:**  
-   Open the Microbot sidebar, find the Daily Tasks Plugin, and enable it.
-
-2. **Configure Settings:**  
-   Select your desired daily tasks and adjust settings as needed.
-
-3. **Start the Plugin:**  
-   Click "Start" to begin automated daily task completion.
-
-4. **Monitor Progress:**  
-   Watch the overlay for real-time updates on progress and status.
-
-5. **Stop at Any Time:**  
-   Click "Stop" to halt the automation.
+- This plugin is for educational and research purposes only.
+- Use at your own risk. Automation or hotkey macros may violate the OSRS game rules and could result in account penalties.
+- The developers are not responsible for any consequences resulting from the use of this plugin.
 
 ---
 
-## Limitations
+## Feedback
 
-- Only supports daily tasks defined in the script logic.
-- Requires the player to have the necessary items or access for certain tasks.
-- May not handle all random events or interruptions (e.g., player death, aggressive NPCs).
-
----
-
-## Source Files
-
-- `DailyTasksPlugin.java` – Main plugin class, manages lifecycle and integration.
-- `DailyTasksScript.java` – Core automation logic for daily tasks.
-- `DailyTasksConfig.java` – User configuration options.
-- `DailyTasksOverlay.java` – In-game overlay display.
-- `DailyTask.java` – Task definitions and logic.
-
----
-
-**Automate your daily RuneScape activities and never miss a reward with the Daily Tasks Plugin!**
+For issues or suggestions, please open an issue or contribute via the Microbot Hub repository.

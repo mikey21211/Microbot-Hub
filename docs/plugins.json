@@ -1577,6 +1577,31 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/mke_wintertodtplugin/2.1.0/mke_wintertodtplugin-2.1.0.jar"
     },
     {
+        "internalName": "RoguesDenPlugin",
+        "name": "Rogues' Den",
+        "description": "Mark tiles and clickboxes to help traverse the maze",
+        "tags": [
+            "agility",
+            "maze",
+            "minigame",
+            "overlay",
+            "thieving",
+            "microbot",
+            "rogue",
+            "den"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.7",
+        "authors": [
+            "Mocrosoft"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/RoguesDenPlugin/assets/icon.jpg",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/RoguesDenPlugin/assets/card.jpg",
+        "disable": false,
+        "sha256": "c918d02d831b51d2eabd56b710d9aec1676ef9524c79c43d86b4a7c7e822c815",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/roguesdenplugin/1.0.0/roguesdenplugin-1.0.0.jar"
+    },
+    {
         "internalName": "GECookerPlugin",
         "name": "GE Cooker",
         "description": "Cooks items on fires found at the Grand Exchange.",
