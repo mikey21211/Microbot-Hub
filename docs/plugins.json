@@ -35,9 +35,9 @@
             "Forn"
         ],
         "iconUrl": "https://chsami.github.io/Microbot-Hub/FornBirdhouseRunsPlugin/assets/icon.jpg",
-        "cardUrl": "httpa://chsami.github.io/Microbot-Hub/FornBirdhouseRunsPlugin/assets/card.jpg",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/FornBirdhouseRunsPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "e41d9716e7a1bb6e05a81a0132ee333b17f8f1d4e75db80e4002cb2cdc83231a",
+        "sha256": "f4dd681d342107da43d4a3c365d801b29bae5860e2a508679e9844fe594098e7",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/fornbirdhouserunsplugin/1.0.0/fornbirdhouserunsplugin-1.0.0.jar"
     },
     {
@@ -506,9 +506,9 @@
             "Storm"
         ],
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BlastoiseFurnacePlugin/assets/icon.jpg",
-        "cardUrl": "httpa://chsami.github.io/Microbot-Hub/BlastoiseFurnacePlugin/assets/card.jpg",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/BlastoiseFurnacePlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "2ec14996cb3182d6de4f142ec9f07ce6f5d785c9ca76693ada0e5f66186a56ea",
+        "sha256": "e5853850d95133648e0aa9089ffa25c3b2a64f2d1b57b690c99f3c415de71750",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/blastoisefurnaceplugin/1.1.0/blastoisefurnaceplugin-1.1.0.jar"
     },
     {
@@ -549,9 +549,9 @@
             "Cardews"
         ],
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AIOCamdozPlugin/assets/icon.jpg",
-        "cardUrl": "httpa://chsami.github.io/Microbot-Hub/AIOCamdozPlugin/assets/card.jpg",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/AIOCamdozPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "d5a36045e2a64f3d6c9876efec89780a1e8c94b63f898be09c4793274cabded5",
+        "sha256": "33740f0153200287db05eef5b24274bf67b597515ac881f35603f8d212621c91",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/aiocamdozplugin/1.0.0/aiocamdozplugin-1.0.0.jar"
     },
     {
@@ -652,9 +652,9 @@
             "Bradley"
         ],
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BradleyCombatPlugin/assets/icon.jpg",
-        "cardUrl": "httpa://chsami.github.io/Microbot-Hub/BradleyCombatPlugin/assets/card.jpg",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/BradleyCombatPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "f6a70aeda4bbafa7eb2da78760e24b7706fdf5377052709e6a92e6d29632d2a0",
+        "sha256": "cfc7a980fa8cff928dc618524477bfa3c80a7564d440473f83c3bf30a9167f5a",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/bradleycombatplugin/1.0.0/bradleycombatplugin-1.0.0.jar"
     },
     {
@@ -953,9 +953,9 @@
             "Unknown Author"
         ],
         "iconUrl": "https://chsami.github.io/Microbot-Hub/WildernessAgilityPlugin/assets/icon.png",
-        "cardUrl": "httpa://chsami.github.io/Microbot-Hub/WildernessAgilityPlugin/assets/card.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/WildernessAgilityPlugin/assets/card.png",
         "disable": false,
-        "sha256": "369e6942c84246a585ccf71e55db2a0ca256662140af4b107a62506cb96f4353",
+        "sha256": "bdeab8f5fa6bf770c2d81ebedd2046d80c06bbd18898a48c94cfc1cd8a93b778",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/wildernessagilityplugin/1.5.1/wildernessagilityplugin-1.5.1.jar"
     },
     {
@@ -1043,14 +1043,14 @@
     },
     {
         "internalName": "EventDismissPlugin",
-        "name": "Event Dismiss</html>",
+        "name": "Event Dismiss",
         "description": "Random Event Dismisser",
         "tags": [
             "random",
             "events",
             "microbot"
         ],
-        "version": "1.0.0",
+        "version": "1.0.1",
         "minClientVersion": "2.0.7",
         "authors": [
             "Unknown"
@@ -1058,8 +1058,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/EventDismissPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/EventDismissPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "422d82a27f77a2f5777d6767964cd2b9590b87e767a432b3beade83038be89a4",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/eventdismissplugin/1.0.0/eventdismissplugin-1.0.0.jar"
+        "sha256": "9147d400d98bbb2b0382956a0f81c391284544af3d42bcc43c039e5540aecee7",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/eventdismissplugin/1.0.1/eventdismissplugin-1.0.1.jar"
     },
     {
         "internalName": "MWintertodtPlugin",
@@ -1701,10 +1701,10 @@
         "authors": [
             "Hal"
         ],
-        "iconUrl": "https://chsami.github.io/Microbot-Hub/DailyTasksPlugin/assets/icon.jpg",
-        "cardUrl": "https://chsami.github.io/Microbot-Hub/DailyTasksPlugin/assets/card.jpg",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/BlessedWinePlugin/assets/icon.jpg",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/BlessedWinePlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "1bd729416859c2b56f9b0fe11117d69b26f020a14ec1c8676cb83c7d5c56e3da",
+        "sha256": "3b4fae70d0b3bd19fe7801199f9e9b1e32c65eb0554be0b8491871d9385fb8b6",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/blessedwineplugin/1.0.2/blessedwineplugin-1.0.2.jar"
     },
     {
