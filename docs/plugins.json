@@ -34,10 +34,10 @@
         "authors": [
             "Forn"
         ],
-        "iconUrl": "https://chsami.github.io/Microbot-Hub/FornBirdhouseRunsPlugin/assets/icon.png",
-        "cardUrl": "httpa://chsami.github.io/Microbot-Hub/FornBirdhouseRunsPlugin/assets/card.png",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/FornBirdhouseRunsPlugin/assets/icon.jpg",
+        "cardUrl": "httpa://chsami.github.io/Microbot-Hub/FornBirdhouseRunsPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "bfaf922da217923f2c830f5a0beadd4b16551e36c18a22ca71d6d5e42e8a37fc",
+        "sha256": "e41d9716e7a1bb6e05a81a0132ee333b17f8f1d4e75db80e4002cb2cdc83231a",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/fornbirdhouserunsplugin/1.0.0/fornbirdhouserunsplugin-1.0.0.jar"
     },
     {
@@ -419,10 +419,10 @@
         "authors": [
             "VIP"
         ],
-        "iconUrl": "",
-        "cardUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/SulphurNaguaPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/SulphurNaguaPlugin/assets/card.png",
         "disable": false,
-        "sha256": "28bac957cb2c0d6b41aced58b6c3e88ba472c336373985e3f6c3a9be9528c89f",
+        "sha256": "664cbe93aa5396c37aab34eb6557fa39078d42db3de7a93adb37b88a19805411",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/sulphurnaguaplugin/1.0.0/sulphurnaguaplugin-1.0.0.jar"
     },
     {
@@ -490,10 +490,9 @@
     },
     {
         "internalName": "BlastoiseFurnacePlugin",
-        "name": "<html>[<font color=#00ffff>\u00a7</font>] ",
+        "name": "BlastoiseFurnace",
         "description": "Storm's BlastoiseFurnace plugin",
         "tags": [
-            "testing",
             "microbot",
             "smithing",
             "bar",
@@ -509,7 +508,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BlastoiseFurnacePlugin/assets/icon.jpg",
         "cardUrl": "httpa://chsami.github.io/Microbot-Hub/BlastoiseFurnacePlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "7b55db40e87d16490f8c86286d24c8a8a21c978c916be2dc0f32960aeb1c7e12",
+        "sha256": "2ec14996cb3182d6de4f142ec9f07ce6f5d785c9ca76693ada0e5f66186a56ea",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/blastoisefurnaceplugin/1.1.0/blastoisefurnaceplugin-1.1.0.jar"
     },
     {
@@ -788,10 +787,10 @@
         "authors": [
             "Unknown Author"
         ],
-        "iconUrl": "https://chsami.github.io/Microbot-Hub/baggedplants/assets/icon.png",
-        "cardUrl": "https://chsami.github.io/Microbot-Hub/baggedplants/assets/card.png",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/BaggedPlantsPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/BaggedPlantsPlugin/assets/card.png",
         "disable": false,
-        "sha256": "53e14e5a9c0cd5a4712896d8e76f60cee907ec79d3687082767d6fa398deef03",
+        "sha256": "04dad60ad0f22e4b9e1c71f455226d25a0504d2a24a75d72615cd668a8962a5f",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/baggedplantsplugin/1.0.0/baggedplantsplugin-1.0.0.jar"
     },
     {
@@ -1164,10 +1163,10 @@
         "authors": [
             "Engin"
         ],
-        "iconUrl": "",
-        "cardUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/DelvePrayerHelperPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/DelvePrayerHelperPlugin/assets/card.png",
         "disable": false,
-        "sha256": "60c39387f329d4eef0e949bd24947442412d4dfbef42965a4c66d2c45784badf",
+        "sha256": "65068c0f49a09947453af3b842b6051bc8279a982c7047ae647297b68e96ce63",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/delveprayerhelperplugin/1.0.0/delveprayerhelperplugin-1.0.0.jar"
     },
     {
@@ -1384,10 +1383,10 @@
         "authors": [
             "The Funk"
         ],
-        "iconUrl": "https://chsami.github.io/Microbot-Hub/MoonsOfPeril/assets/icon.png",
-        "cardUrl": "https://chsami.github.io/Microbot-Hub/MoonsOfPeril/assets/card.png",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/MoonsOfPerilPlugin/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/MoonsOfPerilPlugin/assets/card.png",
         "disable": false,
-        "sha256": "d9e72c1adcb1f1f2ea7425ef92af04f402a1e184ae8d6c36310e430cd2308d51",
+        "sha256": "7545a83fd7ca3ead0297c80309a6eda79e34adf61afe2db9a5623411997be8bd",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/moonsofperilplugin/1.0.1/moonsofperilplugin-1.0.1.jar"
     },
     {
@@ -1702,10 +1701,10 @@
         "authors": [
             "Hal"
         ],
-        "iconUrl": "https://oldschool.runescape.wiki/images/Jug_of_wine.png",
-        "cardUrl": "",
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/DailyTasksPlugin/assets/icon.jpg",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/DailyTasksPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "ec7486158f340f57ac5c146ac6f4f975e9b98779ca23954712af98d52fa5699a",
+        "sha256": "1bd729416859c2b56f9b0fe11117d69b26f020a14ec1c8676cb83c7d5c56e3da",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/blessedwineplugin/1.0.2/blessedwineplugin-1.0.2.jar"
     },
     {
