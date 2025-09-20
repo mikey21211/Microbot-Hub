@@ -18,7 +18,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/RcPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/RcPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "7ad1ea0b4aea696cda5b67cb01e86cb93e24c4b3abba3b68f0c0d04520f11c0b",
+        "sha256": "d07b4e029ba385f489730ffd1cb8f1cd8459668ef7bec5cad2639533a96474d2",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/rcplugin/1.1.2/rcplugin-1.1.2.jar"
     },
     {
@@ -37,7 +37,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/FornBirdhouseRunsPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/FornBirdhouseRunsPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "f4dd681d342107da43d4a3c365d801b29bae5860e2a508679e9844fe594098e7",
+        "sha256": "0a2b3de4b06127badbcc5f4888124186e0d46701f7f1e0314ce262466fe8c701",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/fornbirdhouserunsplugin/1.0.0/fornbirdhouserunsplugin-1.0.0.jar"
     },
     {
@@ -56,7 +56,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/VorkathPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/VorkathPlugin/assets/card.png",
         "disable": false,
-        "sha256": "388b304e5483f2a724ade413bfa952028bfc315b025c259db77f77facce71030",
+        "sha256": "eea8bfe4863ff4a2e9f4da47d5b205ce0978bce69578db7a20687a32da92e800",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/vorkathplugin/1.3.9/vorkathplugin-1.3.9.jar"
     },
     {
@@ -76,7 +76,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/revKillerPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/revKillerPlugin/assets/card.png",
         "disable": false,
-        "sha256": "3f7fc6cfb538246be3a9dee9315b405c23ad580ea24f2bf4a4214103df2ca8d8",
+        "sha256": "53f985036ec11f3a9868ef3bbb47685d196e38b5f9c30257f1f4441da37a6d96",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/revkillerplugin/2.0.2/revkillerplugin-2.0.2.jar"
     },
     {
@@ -96,7 +96,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/PiePlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/PiePlugin/assets/card.png",
         "disable": false,
-        "sha256": "de98819acf463832b9bcce75677d5b5e1d142a47e2437ca85a54e3cec0a9c656",
+        "sha256": "5a5c8f67afed7c6e10446404dbbdb40877281e2600611ce02dbd07382475b5a8",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pieplugin/1.2.0/pieplugin-1.2.0.jar"
     },
     {
@@ -116,7 +116,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoEssenceMiningPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoEssenceMiningPlugin/assets/card.png",
         "disable": false,
-        "sha256": "6ffd6cd105cc61b7e666874f1759a602df6354b84d8110048656df640e39dafb",
+        "sha256": "8c3cb5f00ba2a599dd44568ca78333d447aac18ecc4088ebbfc39f6d0cee8544",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autoessenceminingplugin/1.0.1/autoessenceminingplugin-1.0.1.jar"
     },
     {
@@ -136,7 +136,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/LunarTabletsPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/LunarTabletsPlugin/assets/card.png",
         "disable": false,
-        "sha256": "7eace9dff4e5fb0934254f26faf106216a4094be47c746209bee54922d7b9733",
+        "sha256": "18a2bf3dcceaac18eadaf0a4fbd745df44a744d386e45b2a9724b01b6169136d",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/lunartabletsplugin/2.0.1/lunartabletsplugin-2.0.1.jar"
     },
     {
@@ -157,7 +157,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/MotherloadMinePlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/MotherloadMinePlugin/assets/card.png",
         "disable": false,
-        "sha256": "30f4986ebfdab2e8fd1e037e69f6e04d031100e53ac5e2dc0a843ae354bb2631",
+        "sha256": "f2b189ec88df0a8c67f94f0a473635686d4e8162b25788eb596b7c959b978ed2",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/motherloadmineplugin/1.8.2/motherloadmineplugin-1.8.2.jar"
     },
     {
@@ -175,7 +175,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/DailyTasksPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/DailyTasksPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "87ce1ce1e3740b6a57debd0ff75d467570466812ef788623a13865d6db139241",
+        "sha256": "badc0b9542911a0e69bd44c45490d1f602cc0c9518a14aa6bac337151dfeec8f",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/dailytasksplugin/1.0.0/dailytasksplugin-1.0.0.jar"
     },
     {
@@ -195,7 +195,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoCookingPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoCookingPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "9a3bfcb3abfe1f0fd47bd07c2610e68f73f786c3cfc1aea6409ef3db54d34d95",
+        "sha256": "0e17ed50e0a33ebe2d44904ad1a80800f4d41aeeaeedb52c9f1272cd3aa3548f",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autocookingplugin/1.1.0/autocookingplugin-1.1.0.jar"
     },
     {
@@ -216,8 +216,31 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/ShootingStarPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/ShootingStarPlugin/assets/card.png",
         "disable": false,
-        "sha256": "235590d512cb0fe6a76b15a9ae990be7cdc2d6ad7e5798488c8ec5eb60065395",
+        "sha256": "d8aa3b9f0f4d10e907f95b37c0fb20cfcd35dd0ddb301a63a3cc59c09f524a1e",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/shootingstarplugin/1.4.2/shootingstarplugin-1.4.2.jar"
+    },
+    {
+        "internalName": "VolcanicAshMinerPlugin",
+        "name": "Volcanic Ash Miner",
+        "description": "Start either at the ash mine on Fossil Island or with a digsite pendant in your inventory. Have a pickaxe in your inventory or equipped.",
+        "tags": [
+            "volcanic",
+            "ash",
+            "mining",
+            "ironman",
+            "taf",
+            "microbot"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.9",
+        "authors": [
+            "TaF"
+        ],
+        "iconUrl": "https://chsami.github.io/Microbot-Hub/volcanicashminer/assets/icon.png",
+        "cardUrl": "https://chsami.github.io/Microbot-Hub/volcanicashminer/assets/card.png",
+        "disable": false,
+        "sha256": "729fc3134086a684f7056900a0d2a51faf338c7e6edc565836751def68f2d56f",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/volcanicashminerplugin/1.0.0/volcanicashminerplugin-1.0.0.jar"
     },
     {
         "internalName": "TitheFarmingPlugin",
@@ -237,7 +260,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/TitheFarmingPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/TitheFarmingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "abf9d5a93ab79ddd66a83508fb19ad92a334737b39f8912225f9132cac05aa5b",
+        "sha256": "832c0fba612a86213ec7f871ee12ad8fc57c99cde21cf5e84666601282198272",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/tithefarmingplugin/1.1.1/tithefarmingplugin-1.1.1.jar"
     },
     {
@@ -257,7 +280,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoWoodcuttingPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoWoodcuttingPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "1d70bb9d3afa66b177b9d43cc480f0dce9d1f9a4da446730395fd06f098ab353",
+        "sha256": "e8c426a3d91d34394cd17639c8bd9d71e8d2baddb79675c29cb52a19fa28cd3f",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autowoodcuttingplugin/1.7.0/autowoodcuttingplugin-1.7.0.jar"
     },
     {
@@ -278,7 +301,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/CannonballSmelterPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/CannonballSmelterPlugin/assets/card.png",
         "disable": false,
-        "sha256": "c6ed5dedfeb608a21c61432a2fcd7cb98c5f1c580b9227da5ef73e143ed6d3a8",
+        "sha256": "f80e76a290028b38ca62c2f4e9073412c93fec407635f913affdbfa8f5e219fa",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/cannonballsmelterplugin/1.1.0/cannonballsmelterplugin-1.1.0.jar"
     },
     {
@@ -298,7 +321,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/FishingTrawlerPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/FishingTrawlerPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "1e2db6735767ebd8ba447685d5292c4e80c96b8d142f06192e83f716bcd18aea",
+        "sha256": "ae133b26725fb63e6d451a6857f339fed149b225f84615b276abb59fb3dbfc0d",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/fishingtrawlerplugin/1.0.0/fishingtrawlerplugin-1.0.0.jar"
     },
     {
@@ -318,7 +341,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BarbarianFishingPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BarbarianFishingPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "5e30ff757cacef7da33bf68c5e4af8eb6aae00847e44626e45bd8aee9566f023",
+        "sha256": "bf5e981251ed88a1ff69890337b5ab814b711c17e16608bb7ba0d61f6dce28c2",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/barbarianfishingplugin/1.0.0/barbarianfishingplugin-1.0.0.jar"
     },
     {
@@ -338,7 +361,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/ArrowPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/ArrowPlugin/assets/card.png",
         "disable": false,
-        "sha256": "c0c7686cc86841d8fd02edd801b1746eaf1deff505e475164cf90f964c2a9d2b",
+        "sha256": "b18070f2ead5f3057df8905148d09898da87a86fd11df756858a6559065e7da1",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/arrowplugin/1.0.0/arrowplugin-1.0.0.jar"
     },
     {
@@ -349,7 +372,7 @@
             "fishing",
             "skilling"
         ],
-        "version": "1.0.4",
+        "version": "1.0.5",
         "minClientVersion": "1.9.8",
         "authors": [
             "AI Agent"
@@ -357,8 +380,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoFishingPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoFishingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "75ee68724e62afcbf9911f0e4472f06806fa76dc79605e28d453e9f49bfb360f",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autofishingplugin/1.0.4/autofishingplugin-1.0.4.jar"
+        "sha256": "53c0e705c07847d2f4541b0c0d1a8c12f4934abff945e72fe5b9283343a1c16e",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autofishingplugin/1.0.5/autofishingplugin-1.0.5.jar"
     },
     {
         "internalName": "BanksShopperPlugin",
@@ -376,7 +399,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BanksShopperPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BanksShopperPlugin/assets/card.png",
         "disable": false,
-        "sha256": "a9a901b82eb0842943e05903aa264584ca5855a1864458e13fd184859b4b5c1b",
+        "sha256": "3853e0ee9c0903dd29caba1a01975e9fe104b9d5e11958fd824e077d17dd8ae8",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/banksshopperplugin/1.4.0/banksshopperplugin-1.4.0.jar"
     },
     {
@@ -400,7 +423,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/RecruiterPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/RecruiterPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "f330dd95843e5ec5f6431bf7fa532a333efa325f0fca83a4768729684b6f3580",
+        "sha256": "6e18bbc045a517b33291c6e99221a2efaf9a92bc6312f10fd0a9e76618743881",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/recruiterplugin/1.0.3/recruiterplugin-1.0.3.jar"
     },
     {
@@ -422,7 +445,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/SulphurNaguaPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/SulphurNaguaPlugin/assets/card.png",
         "disable": false,
-        "sha256": "664cbe93aa5396c37aab34eb6557fa39078d42db3de7a93adb37b88a19805411",
+        "sha256": "2d5047b6624d950503acd90584c6f97a30ed85d76b77dfe18ad1b97b554e7e01",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/sulphurnaguaplugin/1.0.0/sulphurnaguaplugin-1.0.0.jar"
     },
     {
@@ -442,7 +465,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/DiscordPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/DiscordPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "5201bac3722e61cd48cc6e042c0848728a5b0b6accab084f1b6520865814efec",
+        "sha256": "e02910ebc608865ccfac00175a9f4eb500a5305e64615b7bf6b18bd34d1c305c",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/discordplugin/1.0.0/discordplugin-1.0.0.jar"
     },
     {
@@ -463,7 +486,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AIOMagicPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AIOMagicPlugin/assets/card.png",
         "disable": false,
-        "sha256": "f42d735681c87cbb76b0f7d030a4e445d5dfe5a02e8e216445c83be4ce96a2ac",
+        "sha256": "84ce1945cc754e7e1ba1a52b06c2d346eac69a8334cded1bd6647bab6f4171c1",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/aiomagicplugin/1.2.0/aiomagicplugin-1.2.0.jar"
     },
     {
@@ -485,7 +508,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/DriftNetPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/DriftNetPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "fab4f1e61e979312088c51142ee1f2435dac0a7ef2d3b9f125c0b9df73ede300",
+        "sha256": "790587842e40dfae1d8aa31d0cfd02d9bd649c01228cd7c60e7b92639d9aa04d",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/driftnetplugin/1.0.0/driftnetplugin-1.0.0.jar"
     },
     {
@@ -508,7 +531,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BlastoiseFurnacePlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BlastoiseFurnacePlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "e5853850d95133648e0aa9089ffa25c3b2a64f2d1b57b690c99f3c415de71750",
+        "sha256": "e115811aac4eebb8f9e6d23a053477e03d82e026de61d291ee0599d3890b45d4",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/blastoisefurnaceplugin/1.1.0/blastoisefurnaceplugin-1.1.0.jar"
     },
     {
@@ -529,7 +552,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AnonymousPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AnonymousPlugin/assets/card.png",
         "disable": false,
-        "sha256": "1efdc12df6ee3d95a558fd76891e33a5706bca2f98c3561f7c3b18b55d550bd5",
+        "sha256": "fbfa1e139ff65bcd89379e2caf9d3328b24b860b8696c7f57ee8b1978e6f4cb7",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/anonymousplugin/1.0.3/anonymousplugin-1.0.3.jar"
     },
     {
@@ -551,7 +574,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AIOCamdozPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AIOCamdozPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "9b36716f6eea4b16de3b1abcfd106d46d7fffb2cf7823130c50538a1eca2d89c",
+        "sha256": "3bed4a05d2650b1bdb373b8cef696cb10da9d16a417918d9ce1177f314ce0dbe",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/aiocamdozplugin/1.0.0/aiocamdozplugin-1.0.0.jar"
     },
     {
@@ -571,7 +594,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/CraftingPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/CraftingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "f213785b92e3d56b5dc89382a121cc24508f98ae044f6950691cea853af92f8d",
+        "sha256": "da7588819e0f94fc28c4bc94b22f0f2b8f0006dd099297aa9940b3b4d377d216",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/craftingplugin/1.0.0/craftingplugin-1.0.0.jar"
     },
     {
@@ -593,7 +616,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/JewelleryEnchantPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/JewelleryEnchantPlugin/assets/card.png",
         "disable": false,
-        "sha256": "328c79937fe4efdff1a0f48409a09b4ce33fdda32d3d3fca92d9bebf09c41e82",
+        "sha256": "ddf7a19260d94fd062331a3e0949686db0934711c6e1493ef6fdf87b41767dec",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/jewelleryenchantplugin/1.0.1/jewelleryenchantplugin-1.0.1.jar"
     },
     {
@@ -613,7 +636,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/ChaosAltarPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/ChaosAltarPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "a8771bfc8701230084c560bf43b0f0c57c60093128335a345057d9148a4ab03d",
+        "sha256": "a6871bd5fdd4516a3003ba4896a552f065e512c7c239a14d0bab889a505abde8",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/chaosaltarplugin/1.0.0/chaosaltarplugin-1.0.0.jar"
     },
     {
@@ -624,7 +647,7 @@
             "thieving",
             "skilling"
         ],
-        "version": "2.0.3",
+        "version": "2.0.5",
         "minClientVersion": "1.9.8.2",
         "authors": [
             "Mocrosoft",
@@ -634,8 +657,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/ThievingPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/ThievingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "4fd438e7b831651660bb50bc409f7cc7e0ce3f027611d2b05b335a14c677af12",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/thievingplugin/2.0.3/thievingplugin-2.0.3.jar"
+        "sha256": "895a4e159450721c056c47975bed4febd5fb19b640ace6bb06df1cc0b1d52a91",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/thievingplugin/2.0.5/thievingplugin-2.0.5.jar"
     },
     {
         "internalName": "BradleyCombatPlugin",
@@ -654,7 +677,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BradleyCombatPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BradleyCombatPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "cfc7a980fa8cff928dc618524477bfa3c80a7564d440473f83c3bf30a9167f5a",
+        "sha256": "35d32019947db59a337c0de7b539434b24d5a443f1d16bfc2f07fc2bea95a2cb",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/bradleycombatplugin/1.0.0/bradleycombatplugin-1.0.0.jar"
     },
     {
@@ -673,7 +696,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/JadPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/JadPlugin/assets/card.png",
         "disable": false,
-        "sha256": "52a6355f02410db55931c5994cfdeef099a6a23720a6546cc6bf46597f4bac91",
+        "sha256": "794025eb27aae6f3abdb6073200a8f17f47cc6270bd45765aec55c979f9d0991",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/jadplugin/1.0.7/jadplugin-1.0.7.jar"
     },
     {
@@ -692,7 +715,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/FarmTreeRunPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/FarmTreeRunPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "91ec0e31b8ba903a6b61f23af42f6ec1501a827789587d4fbb320b0eb0d61d8d",
+        "sha256": "82218d82179aa2c9c29610e7c6673531c0e2ffbac2d8914a5eac4f208a227507",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/farmtreerunplugin/1.0.0/farmtreerunplugin-1.0.0.jar"
     },
     {
@@ -711,7 +734,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoChompyKillerPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoChompyKillerPlugin/assets/card.png",
         "disable": false,
-        "sha256": "cffba1f6f0a690121bfa81624565556925fe8d7f26c8e3c361a1c2188a7a0bfd",
+        "sha256": "7346d18ec86ef1a2ead84a6a2143f63caa846d4eeae4c2afd0cfb95cf0d47c51",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autochompykillerplugin/1.0.1/autochompykillerplugin-1.0.1.jar"
     },
     {
@@ -731,7 +754,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoBankStanderPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoBankStanderPlugin/assets/card.png",
         "disable": false,
-        "sha256": "71acd684ab04b47aae8b9f66f85d39e6dd3a779f098336b3637a0a7b98d976c2",
+        "sha256": "bd54cf0ad1a0baf9efb72581a293472119513b7854f759d042dbba56f5cb3d6a",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autobankstanderplugin/1.0.2/autobankstanderplugin-1.0.2.jar"
     },
     {
@@ -750,7 +773,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/TutorialIslandPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/TutorialIslandPlugin/assets/card.png",
         "disable": false,
-        "sha256": "897e0795d0c24fe548a89c79b3bb2f31950dfaa8a3bf421378f4299591a00346",
+        "sha256": "c2d7d87b70ce01c49d2eb96e6555c7ccf1143302f3ec3b1342c98c793445050b",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/tutorialislandplugin/1.3/tutorialislandplugin-1.3.jar"
     },
     {
@@ -770,7 +793,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/VarrockAnvilPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/VarrockAnvilPlugin/assets/card.png",
         "disable": false,
-        "sha256": "ebed0ccfb6b966ea61aad76569d041bac2e5395d64636c7169e757722a451d32",
+        "sha256": "1a21e8c456aef6a6b21ea94b306aabb5a10dc776c020b49a5dfbc25f92cf44ab",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/varrockanvilplugin/1.0.3/varrockanvilplugin-1.0.3.jar"
     },
     {
@@ -790,7 +813,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BaggedPlantsPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BaggedPlantsPlugin/assets/card.png",
         "disable": false,
-        "sha256": "04dad60ad0f22e4b9e1c71f455226d25a0504d2a24a75d72615cd668a8962a5f",
+        "sha256": "adc663834cc602adbb6da73df243cca29f0be03df59228d2243265c8395beb0f",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/baggedplantsplugin/1.0.0/baggedplantsplugin-1.0.0.jar"
     },
     {
@@ -811,7 +834,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoBuyerPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoBuyerPlugin/assets/card.png",
         "disable": false,
-        "sha256": "db76fba16658fdc9b4e977281dc6d01f6f069ff2f6cc07897ee62dd0adbe322f",
+        "sha256": "51a62dee1d75993002bfd7f393608d62c9a5d93d4164988aa2688605df6deb5c",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autobuyerplugin/1.0.0/autobuyerplugin-1.0.0.jar"
     },
     {
@@ -832,7 +855,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BirdHunterPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BirdHunterPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "62427c672061103fb756c465aa9040a03b43d8e3523f508560c2a5cc2eca4dcf",
+        "sha256": "85a041717368f08b90ef6957f94f52b9e73c110c762371fa5d3db5ce7cadef36",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/birdhunterplugin/1.0.1/birdhunterplugin-1.0.1.jar"
     },
     {
@@ -854,7 +877,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BonesToBananasPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BonesToBananasPlugin/assets/card.png",
         "disable": false,
-        "sha256": "ac64aa4efe275d22d96f35cd5dc51e3b798dee1aaa69fe3fae421f696e7a3b7f",
+        "sha256": "3f1256c35d98c239c40973535f1b53d3f97c9a6f30f6183fe71a6f76bd8d6ad8",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/bonestobananasplugin/1.0.1/bonestobananasplugin-1.0.1.jar"
     },
     {
@@ -873,7 +896,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/MinnowsPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/MinnowsPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "755d1d9dbcf82bae04a6b246f0a63bb9de6ec4561ef9f397fc5bdf6dae8ae0c4",
+        "sha256": "6e4dc79112fe3ac4af566c099d799706fb03b350d23878011b06fa320973adb0",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/minnowsplugin/1.0.4/minnowsplugin-1.0.4.jar"
     },
     {
@@ -894,7 +917,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/HerbrunPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/HerbrunPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "ce5eda8eff072df3a1b9761ecf34ce385b209a513f398fa160fa40605202799e",
+        "sha256": "0292a7d8ab3fded1094c05510bed1fb9a1f9cafba89ba6547f4fa9b7d9fd87e4",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/herbrunplugin/1.0.0/herbrunplugin-1.0.0.jar"
     },
     {
@@ -914,7 +937,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/PVirewatchKillerPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/PVirewatchKillerPlugin/assets/card.png",
         "disable": false,
-        "sha256": "5341dd0face979efcdc78b557d482af6bf10377d56e237d7c0751c4ba90d83e7",
+        "sha256": "09ecd7e7affe6d254ee48096892209ceb17d5eb3215d562a4bedc8e7b6bfa346",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pvirewatchkillerplugin/1.0.0/pvirewatchkillerplugin-1.0.0.jar"
     },
     {
@@ -933,7 +956,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/PestControlPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/PestControlPlugin/assets/card.png",
         "disable": false,
-        "sha256": "889ed7d850979e1ccd835fb6003757d9a354d71b653ac2c5b30372def20e3421",
+        "sha256": "45dcf44c19016dd7c71aea88efc2bc9aa61e009483fec86ec034a6f09ac414bd",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pestcontrolplugin/2.2.6/pestcontrolplugin-2.2.6.jar"
     },
     {
@@ -955,7 +978,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/WildernessAgilityPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/WildernessAgilityPlugin/assets/card.png",
         "disable": false,
-        "sha256": "bdeab8f5fa6bf770c2d81ebedd2046d80c06bbd18898a48c94cfc1cd8a93b778",
+        "sha256": "68d6152e534dabaf899c51ac3dc5dfbf582993581b305f6e64e870b42077a8e4",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/wildernessagilityplugin/1.5.1/wildernessagilityplugin-1.5.1.jar"
     },
     {
@@ -975,7 +998,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/npcTannerPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/npcTannerPlugin/assets/card.png",
         "disable": false,
-        "sha256": "aa98d52129af98e9c86948d3a5caad4c6230187b5f558c3a3a2ca6b1033b0894",
+        "sha256": "264a738073114a3741eae5ae445050294bc82427553735a4a1d836d3c8dfb203",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/npctannerplugin/2.0.1/npctannerplugin-2.0.1.jar"
     },
     {
@@ -997,7 +1020,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BanksBankStanderPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BanksBankStanderPlugin/assets/card.png",
         "disable": false,
-        "sha256": "efd97e9fe8c7c0d0e1e7280f987ffed3c4a555c877b60ad45ecc917f4fdd130d",
+        "sha256": "de8b68ce6d4e1de9488bc28df6531d4e942aa041a65cf9be06f0c6adf0da11ae",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/banksbankstanderplugin/2.1.0/banksbankstanderplugin-2.1.0.jar"
     },
     {
@@ -1017,7 +1040,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BarrowsPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BarrowsPlugin/assets/card.png",
         "disable": false,
-        "sha256": "d999614307b2d92c36bb106d948586ef6ba399c686f45b225331dc8c1c015b0b",
+        "sha256": "137d4de7715772ad39cd7cc3e98da68cd35e1c904ef9de0df1be8b5689247846",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/barrowsplugin/2.0.1/barrowsplugin-2.0.1.jar"
     },
     {
@@ -1038,7 +1061,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/FlippersChaserPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/FlippersChaserPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "82d64dec34907eb2e9d41ae457410abe43b0c84a6af4cdaad281b44fbc832876",
+        "sha256": "7a4f3683f5704a97636273c802971534844714abe205407e6d76f1882278f76e",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/flipperschaserplugin/1.0.0/flipperschaserplugin-1.0.0.jar"
     },
     {
@@ -1058,7 +1081,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/EventDismissPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/EventDismissPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "f488ec68bfa14cdb27ee0a495dafc307379d521df738267c2f84d991b1a0ea34",
+        "sha256": "fd5d44a8360464d84256319b5029a041cc00d71bb9b7fa28490113cb3c8de227",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/eventdismissplugin/1.0.1/eventdismissplugin-1.0.1.jar"
     },
     {
@@ -1079,7 +1102,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/MWintertodtPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/MWintertodtPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "200a77ddba4b8cb55af924640765b7593f9711fe16268d8246e41622a8a2e94e",
+        "sha256": "344f6d977935d751c888ebd5f2c082e538ee41af646bfdf71d729f2f93d0a74a",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/mwintertodtplugin/1.4.7/mwintertodtplugin-1.4.7.jar"
     },
     {
@@ -1104,7 +1127,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/TowerOfLifeCCPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/TowerOfLifeCCPlugin/assets/card.png",
         "disable": false,
-        "sha256": "86dd656e9f842131f6c28aa388212cda9ed8d28f9d229571c1e628fc94e39d9d",
+        "sha256": "ae420e5588e7d2d661c96bb69173e852a22634cd0e37812e5103711c58b457fe",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/toweroflifeccplugin/1.1.4/toweroflifeccplugin-1.1.4.jar"
     },
     {
@@ -1124,7 +1147,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BankSellerPlugin/assets/bank.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BankSellerPlugin/assets/card.png",
         "disable": false,
-        "sha256": "35944836626a31530f4fd76b67ae87c49c7ab49ebf305660e6c53a4ac8c99bf9",
+        "sha256": "7eb485bfabd64e5b69e47040089dfb0380d4ad93090db29d31771497abefe347",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/banksellerplugin/1.0.2/banksellerplugin-1.0.2.jar"
     },
     {
@@ -1144,7 +1167,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/TheMessPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/TheMessPlugin/assets/card.png",
         "disable": false,
-        "sha256": "4adbf7ca2919415b4bf3d6959b6aeb2d1c09db689a75bfef23d19361469acc6d",
+        "sha256": "7a511db304be48a7f6001d920472f9265b7d642e2ec7f1587492d9fbe2c36c81",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/themessplugin/1.0.2/themessplugin-1.0.2.jar"
     },
     {
@@ -1166,7 +1189,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/DelvePrayerHelperPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/DelvePrayerHelperPlugin/assets/card.png",
         "disable": false,
-        "sha256": "65068c0f49a09947453af3b842b6051bc8279a982c7047ae647297b68e96ce63",
+        "sha256": "78890ef57bbe68d0d223e83fa9e4d9d4c721b420b2253ce718052da26b2e790a",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/delveprayerhelperplugin/1.0.0/delveprayerhelperplugin-1.0.0.jar"
     },
     {
@@ -1187,7 +1210,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AerialFishingPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AerialFishingPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "ec4cad71582b07bfe0b30469146ac42c7a331cbc5ece331ead16e55d1960bf21",
+        "sha256": "e92f54ec61d13ba852942ec593a2494689e8317b1c096b878b85ec7c2d4bf2d6",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/aerialfishingplugin/1.1.0/aerialfishingplugin-1.1.0.jar"
     },
     {
@@ -1208,7 +1231,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/HumidifierPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/HumidifierPlugin/assets/card.png",
         "disable": false,
-        "sha256": "20872488b52941b213d259cdb0f23eef1f1bb595c91a536ff67477be42f96dfc",
+        "sha256": "94cfd4bde54b390ae2a0e625b6c23a80383d24c8ed9ee51fbf7c9d29d7eba722",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/humidifierplugin/1.6.2/humidifierplugin-1.6.2.jar"
     },
     {
@@ -1227,7 +1250,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/CharterCrafterPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/CharterCrafterPlugin/assets/card.png",
         "disable": false,
-        "sha256": "9f52c3c9cec25019beda631a00a557b0a9273ced804685d492014cb9c192b235",
+        "sha256": "7030a76556f46fa311df797267bbab9d8eb4d0eff6044320466cc335089f9fd3",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/chartercrafterplugin/1.0.0/chartercrafterplugin-1.0.0.jar"
     },
     {
@@ -1246,7 +1269,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/HouseThievingPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/HouseThievingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "42db256e599d99aecbd288fbc1685b3217dd7d2e158e99b9f19dc02fc18e3ccc",
+        "sha256": "d6a1f1204a5053116081f22d27283bc7217aeba37526f399d44c6a1e315c5834",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/housethievingplugin/1.0.0/housethievingplugin-1.0.0.jar"
     },
     {
@@ -1266,7 +1289,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/HerbiboarPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/HerbiboarPlugin/assets/card.png",
         "disable": false,
-        "sha256": "50d5c401ea2cd7077027c296bd56bb07eb2f982b90f643af63b6f1a7f2294512",
+        "sha256": "df80333010c56c39cbea8562cfb2ade10406e20e8f6abc83bf6c4445ff2b9354",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/herbiboarplugin/1.2.4/herbiboarplugin-1.2.4.jar"
     },
     {
@@ -1285,7 +1308,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/NmzPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/NmzPlugin/assets/card.png",
         "disable": false,
-        "sha256": "8b4ad3e699a55ecc8aaa608085b172b6ec1e670d5225352dadf1c1d661b3f6ed",
+        "sha256": "debca1faa15d8e958b26129ff5ed09530d9dd719054410bca4e5083f3bce0a62",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/nmzplugin/2.2.0/nmzplugin-2.2.0.jar"
     },
     {
@@ -1305,7 +1328,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/ClueSolverPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/ClueSolverPlugin/assets/card.png",
         "disable": false,
-        "sha256": "722677d04726f3409b524c79c1c8fe8de7111f66c34166b2cfc716af71a9f499",
+        "sha256": "8bb3c84bc940ad45f739bf370af11d08ee609ca8d649a46e4120a369a8170d04",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/cluesolverplugin/1.0.0/cluesolverplugin-1.0.0.jar"
     },
     {
@@ -1325,7 +1348,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/MixologyPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/MixologyPlugin/assets/card.png",
         "disable": false,
-        "sha256": "a245ef58d4e96a0a34d603bf55722c9915ef1fc02f22e7e0692b0ada42afd221",
+        "sha256": "1dee9b05db87ec4499ac165e0655d40c459974e70a52ade759243fc6cd38fae8",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/mixologyplugin/1.0.2-beta/mixologyplugin-1.0.2-beta.jar"
     },
     {
@@ -1344,7 +1367,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/MicroAgilityPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/MicroAgilityPlugin/assets/card.png",
         "disable": false,
-        "sha256": "aef304570ad516faa2cd9477fc1b9350dbcad1cfb8b65daaa7d9007afb742d46",
+        "sha256": "383f56b6c65ede5d7a9cf29c1318629d43da2959adba04dd117e9333fce17df1",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/microagilityplugin/1.2.2/microagilityplugin-1.2.2.jar"
     },
     {
@@ -1364,7 +1387,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/ConstructionPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/ConstructionPlugin/assets/card.png",
         "disable": false,
-        "sha256": "1c58ef8621e70ac6dd3c26701a247116c4cf107a5efcf31b1fa6ab89d148caae",
+        "sha256": "bfc4b6539194f444140c8ae00340e68e12fe326cab758c8124deae7ad2929ef5",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/constructionplugin/1.1.0/constructionplugin-1.1.0.jar"
     },
     {
@@ -1386,7 +1409,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/MoonsOfPerilPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/MoonsOfPerilPlugin/assets/card.png",
         "disable": false,
-        "sha256": "7545a83fd7ca3ead0297c80309a6eda79e34adf61afe2db9a5623411997be8bd",
+        "sha256": "63dd3a2e053d64b86c9d554da8d54fbdbaf60e6905f1653fdf3a35da7408ffc3",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/moonsofperilplugin/1.0.1/moonsofperilplugin-1.0.1.jar"
     },
     {
@@ -1410,7 +1433,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/MageTrainingArenaPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/MageTrainingArenaPlugin/assets/card.png",
         "disable": false,
-        "sha256": "19dda1a984a1a7f0c808f0163097c1a3d97df4ade0783fc4154c31190b69d531",
+        "sha256": "6bef256ced3c8149fd98d5ce8206da76d81f6d6f27ab9df9bb4689fa49169470",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/magetrainingarenaplugin/1.1.4/magetrainingarenaplugin-1.1.4.jar"
     },
     {
@@ -1429,7 +1452,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/GiantMolePlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/GiantMolePlugin/assets/card.png",
         "disable": false,
-        "sha256": "9100b498884872ff74c2f4f3a31ae3bd12ddac9af075ad9f420aebd195524790",
+        "sha256": "25c49ddf215861cb26c5a7ab1c4b8db71b9010b11e79d36545ce67a5a6ed220d",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/giantmoleplugin/0.0.3/giantmoleplugin-0.0.3.jar"
     },
     {
@@ -1449,7 +1472,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/EelFishingPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/EelFishingPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "771d1abbe6723d962f836aa4967e8aec8693e9a44af15c78425d1c0dfe98d97a",
+        "sha256": "2c41aff04f8e8fd54365af2e1ac7ab65533b803155ae94eaa84cdf087f14b985",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/eelfishingplugin/1.0.0/eelfishingplugin-1.0.0.jar"
     },
     {
@@ -1471,7 +1494,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/GEFiremakerPlugin/assets/firemaking.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/GEFiremakerPlugin/assets/card.png",
         "disable": false,
-        "sha256": "38518f30edddabeedd0f977da9e9808b55a32aacf52714a196245d695d2c7983",
+        "sha256": "efce433d9efa39597019114591ba2b9adc5ceb5e86bd27a1484d96cfc5a964ad",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gefiremakerplugin/1.0.1/gefiremakerplugin-1.0.1.jar"
     },
     {
@@ -1489,7 +1512,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": true,
-        "sha256": "dbd4ed91cd55a92d9faa07a2c318fb010e72325b7129c312df18ef8255f0559f",
+        "sha256": "c639be6d4798b61a34950d83a29d5acba11ad37d0e3fa4f928108b060f0b6db5",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/exampleplugin/1.1.1/exampleplugin-1.1.1.jar"
     },
     {
@@ -1509,7 +1532,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AstralRunesPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AstralRunesPlugin/assets/card.png",
         "disable": false,
-        "sha256": "538897d483bf683b52fa6a72108b6cffebe8ef67cba344dc968db45f0f931497",
+        "sha256": "c76df91270013e423e5164cb25a25755d622725de6ca4ca47a61ea7f8b583097",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/astralrunesplugin/1.0.2/astralrunesplugin-1.0.2.jar"
     },
     {
@@ -1532,7 +1555,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AIOFighterPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AIOFighterPlugin/assets/card.png",
         "disable": false,
-        "sha256": "5d7608f9c071025fc38a77030bd0eefb239ab5c03e124ab143ec43e087bcbc74",
+        "sha256": "f381e46ef8cc51954d0fcf899c608d2a92c0bcc96e307795fef3ae7fdc012878",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/aiofighterplugin/2.0.4/aiofighterplugin-2.0.4.jar"
     },
     {
@@ -1552,7 +1575,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/CombatHotkeysPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/CombatHotkeysPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "4a62a1b6e387f3402173624c82e470f401237d948523f334958e65af77dc558b",
+        "sha256": "7051514ad4dac64d9ea1b57904c5d20d589ab2684bcb9b127f990b8ba93e97f8",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/combathotkeysplugin/1.1.0/combathotkeysplugin-1.1.0.jar"
     },
     {
@@ -1572,7 +1595,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/MKE_WintertodtPlugin/assets/card.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/MKE_WintertodtPlugin/assets/card.png",
         "disable": false,
-        "sha256": "eb53c5f596162c20a82541ffc840197f8f8091c07e14399e84ab3229e75626d8",
+        "sha256": "4a56dcde94610a07211f124098ec3f0e5d3609f38afc9174ef5da6ba524e0f97",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/mke_wintertodtplugin/2.1.0/mke_wintertodtplugin-2.1.0.jar"
     },
     {
@@ -1597,7 +1620,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/RoguesDenPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/RoguesDenPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "c918d02d831b51d2eabd56b710d9aec1676ef9524c79c43d86b4a7c7e822c815",
+        "sha256": "c8c8c16ebb6d1b6585f6a1342b5a4b2475fd5da89c35c649d1a7f5690b786df8",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/roguesdenplugin/1.0.0/roguesdenplugin-1.0.0.jar"
     },
     {
@@ -1620,7 +1643,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/GECookerPlugin/assets/cooking.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/GECookerPlugin/assets/card.png",
         "disable": false,
-        "sha256": "b4e3225de1bd29b6afb0dbd2f73f27304cd1dea5120e71ce434bd6033aa413ac",
+        "sha256": "f31b898a7799995bfb74d0e45568c9a33f9925f91216b1b202dc28b400146cdf",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gecookerplugin/1.0.1/gecookerplugin-1.0.1.jar"
     },
     {
@@ -1642,7 +1665,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/FlipperPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/FlipperPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "1eb89330c012612845eb3cd514131b28bf297a17a4c39dc64bc959e20aa827c2",
+        "sha256": "0401dcbeee78d4a043b57e054b7cc7300173e86607d13bacb3304db6ce49d461",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/flipperplugin/1.1.0/flipperplugin-1.1.0.jar"
     },
     {
@@ -1662,7 +1685,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/ValeTotemPlugin/assets/card.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/ValeTotemPlugin/assets/card.png",
         "disable": false,
-        "sha256": "1ff44120ab06a6bffd00f5293fe4f0859f79b75e7ed26cddd0e36e4d3f5698ae",
+        "sha256": "1707365217802b24de70d5fee24af5715a237362d45174f5e83dd9281358469e",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/valetotemplugin/1.0.3/valetotemplugin-1.0.3.jar"
     },
     {
@@ -1682,7 +1705,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AnimatedArmourPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AnimatedArmourPlugin/assets/card.png",
         "disable": false,
-        "sha256": "a43ecdcabde20ca58b48bf712e0aab587b76ac6e44e85f6d39861b6cbe2b7499",
+        "sha256": "3694fed893ca26d11180e5d21f8ecfc65fb044e0231bf42a22efa5d50610a788",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/animatedarmourplugin/1.0.1/animatedarmourplugin-1.0.1.jar"
     },
     {
@@ -1704,7 +1727,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BlessedWinePlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BlessedWinePlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "3b4fae70d0b3bd19fe7801199f9e9b1e32c65eb0554be0b8491871d9385fb8b6",
+        "sha256": "28ed9c933ab4585220d38813bb188fc21b27386faa9069253ca2da53c978d3e5",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/blessedwineplugin/1.0.2/blessedwineplugin-1.0.2.jar"
     },
     {
@@ -1725,7 +1748,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/WinePlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/WinePlugin/assets/card.png",
         "disable": false,
-        "sha256": "342fc7aa070ea2dc78eb3e96b553b31afa6c01cc251f4e846e2deb1ea9809d13",
+        "sha256": "e560c962956829a72b97385063869525eaaa9bf45130b55f7311264196653e20",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/wineplugin/1.1.1/wineplugin-1.1.1.jar"
     },
     {
@@ -1746,7 +1769,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BanksShopperPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BanksShopperPlugin/assets/card.png",
         "disable": false,
-        "sha256": "6f3fd730f0dc678c371b9a4367c8673b4f8dc8b3df9ea9bbbd7fa153a6c6b46e",
+        "sha256": "290278116abc32173d91cfe65985cba8a8fd8ffec0ef193eb5f49be96c74cc2c",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/banktabsorterplugin/1.0.0/banktabsorterplugin-1.0.0.jar"
     },
     {
@@ -1766,7 +1789,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/FletchingPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/FletchingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "3491cea766d4179d8c8db7d91f504edc90a7ef35949aa9df96bc647ea45d1155",
+        "sha256": "294b8a2b5e6c091fcb075b0eaa275ab0d61a4d9f24e8c055f0defde106ea0f30",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/fletchingplugin/1.6.2/fletchingplugin-1.6.2.jar"
     },
     {
@@ -1787,7 +1810,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/OuraniaPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/OuraniaPlugin/assets/card.png",
         "disable": false,
-        "sha256": "9f01b518617f0161e00774771e6ea28208a29d71094c59e23c6a0418f29cf05d",
+        "sha256": "6f563f9f8938089f8ff229159f47428c6b852eeb4443e459502b36136aaca98e",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/ouraniaplugin/1.4.2/ouraniaplugin-1.4.2.jar"
     },
     {
@@ -1811,7 +1834,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/BarbarianVillageFisherPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/BarbarianVillageFisherPlugin/assets/card.png",
         "disable": false,
-        "sha256": "fb1a03fa7a06c0aee7b55fb3cc314522f8ea654c01231006955f98efa59180bb",
+        "sha256": "71462c261303d8b9e4afbf8a803a639efefcdef7f1f745e4c94860507fbc6df6",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/barbarianvillagefisherplugin/1.0.1/barbarianvillagefisherplugin-1.0.1.jar"
     },
     {
@@ -1833,7 +1856,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/ArceuusRcPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/ArceuusRcPlugin/assets/card.png",
         "disable": false,
-        "sha256": "bd67da384148e4393c2659be5333560b231e5139f364fce571367fe78d7680e7",
+        "sha256": "b7a70a4af10c0bf1ef458f49e2c1678dafed2afb5e7cbd91a67ade4e02ed588e",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/arceuusrcplugin/1.0.2/arceuusrcplugin-1.0.2.jar"
     }
 ]
