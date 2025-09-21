@@ -272,7 +272,7 @@
             "microbot",
             "skilling"
         ],
-        "version": "1.7.0",
+        "version": "1.7.1",
         "minClientVersion": "2.0.7",
         "authors": [
             "Mocrosoft"
@@ -280,8 +280,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoWoodcuttingPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoWoodcuttingPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "e8c426a3d91d34394cd17639c8bd9d71e8d2baddb79675c29cb52a19fa28cd3f",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autowoodcuttingplugin/1.7.0/autowoodcuttingplugin-1.7.0.jar"
+        "sha256": "1d797a4b21fbe170f342b817fa555809c6b8f4db4831dfd9d96e762128c0c19e",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autowoodcuttingplugin/1.7.1/autowoodcuttingplugin-1.7.1.jar"
     },
     {
         "internalName": "CannonballSmelterPlugin",
@@ -647,7 +647,7 @@
             "thieving",
             "skilling"
         ],
-        "version": "2.0.5",
+        "version": "2.0.6",
         "minClientVersion": "1.9.8.2",
         "authors": [
             "Mocrosoft",
@@ -657,8 +657,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/ThievingPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/ThievingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "895a4e159450721c056c47975bed4febd5fb19b640ace6bb06df1cc0b1d52a91",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/thievingplugin/2.0.5/thievingplugin-2.0.5.jar"
+        "sha256": "987a84fbe57acfa975ec574208d790e1f1046560872b0ae1bef6f23ea0fa33f4",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/thievingplugin/2.0.6/thievingplugin-2.0.6.jar"
     },
     {
         "internalName": "BradleyCombatPlugin",
@@ -909,7 +909,7 @@
             "money making",
             "skilling"
         ],
-        "version": "1.0.0",
+        "version": "1.0.1",
         "minClientVersion": "2.0.7",
         "authors": [
             "Mocrosoft"
@@ -917,8 +917,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/HerbrunPlugin/assets/icon.jpg",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/HerbrunPlugin/assets/card.jpg",
         "disable": false,
-        "sha256": "0292a7d8ab3fded1094c05510bed1fb9a1f9cafba89ba6547f4fa9b7d9fd87e4",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/herbrunplugin/1.0.0/herbrunplugin-1.0.0.jar"
+        "sha256": "9ee190600fa6a16f61388dfec5274c949577eef5d11b3064c26f31f8afcbc5e3",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/herbrunplugin/1.0.1/herbrunplugin-1.0.1.jar"
     },
     {
         "internalName": "PVirewatchKillerPlugin",
@@ -1622,6 +1622,30 @@
         "disable": false,
         "sha256": "c8c8c16ebb6d1b6585f6a1342b5a4b2475fd5da89c35c649d1a7f5690b786df8",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/roguesdenplugin/1.0.0/roguesdenplugin-1.0.0.jar"
+    },
+    {
+        "internalName": "MmCavesPlugin",
+        "name": "MM Caves",
+        "description": "Automates chinning or bursting in Monkey Madness II caves",
+        "tags": [
+            "mm",
+            "mm2",
+            "caves",
+            "chinning",
+            "bursting",
+            "ranged",
+            "magic"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.6",
+        "authors": [
+            "FreakJoost"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "fb2786da0a753aa9b9083c53dca12281b9d3880e5c9d1e65a8f4758fcc9cc530",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/mmcavesplugin/1.0.0/mmcavesplugin-1.0.0.jar"
     },
     {
         "internalName": "GECookerPlugin",
