@@ -661,6 +661,30 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/thievingplugin/2.0.6/thievingplugin-2.0.6.jar"
     },
     {
+        "internalName": "MmCavesPlugin",
+        "name": "MM Caves",
+        "description": "Automates chinning or bursting in Monkey Madness II caves",
+        "tags": [
+            "mm",
+            "mm2",
+            "caves",
+            "chinning",
+            "bursting",
+            "ranged",
+            "magic"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.6",
+        "authors": [
+            "FreakJoost"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "256e250338594f9b6aa72f93486581fbbbab61cd8aaaa3345fbafb73c7ed15b6",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/mmcavesplugin/1.0.0/mmcavesplugin-1.0.0.jar"
+    },
+    {
         "internalName": "BradleyCombatPlugin",
         "name": "Bradley Combat",
         "description": "A plugin for managing combat swaps, special attacks, prayer toggles, and food/potion actions via hotkeys.",
@@ -1622,30 +1646,6 @@
         "disable": false,
         "sha256": "c8c8c16ebb6d1b6585f6a1342b5a4b2475fd5da89c35c649d1a7f5690b786df8",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/roguesdenplugin/1.0.0/roguesdenplugin-1.0.0.jar"
-    },
-    {
-        "internalName": "MmCavesPlugin",
-        "name": "MM Caves",
-        "description": "Automates chinning or bursting in Monkey Madness II caves",
-        "tags": [
-            "mm",
-            "mm2",
-            "caves",
-            "chinning",
-            "bursting",
-            "ranged",
-            "magic"
-        ],
-        "version": "1.0.0",
-        "minClientVersion": "2.0.6",
-        "authors": [
-            "FreakJoost"
-        ],
-        "iconUrl": "",
-        "cardUrl": "",
-        "disable": false,
-        "sha256": "fb2786da0a753aa9b9083c53dca12281b9d3880e5c9d1e65a8f4758fcc9cc530",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/mmcavesplugin/1.0.0/mmcavesplugin-1.0.0.jar"
     },
     {
         "internalName": "GECookerPlugin",
