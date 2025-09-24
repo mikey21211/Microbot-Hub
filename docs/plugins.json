@@ -1570,7 +1570,7 @@
             "combat",
             "playerassistant"
         ],
-        "version": "2.0.4",
+        "version": "2.0.5",
         "minClientVersion": "2.0.7",
         "authors": [
             "Mocrosoft",
@@ -1579,8 +1579,8 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AIOFighterPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AIOFighterPlugin/assets/card.png",
         "disable": false,
-        "sha256": "f381e46ef8cc51954d0fcf899c608d2a92c0bcc96e307795fef3ae7fdc012878",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/aiofighterplugin/2.0.4/aiofighterplugin-2.0.4.jar"
+        "sha256": "dd62aba3d3652f67a074cfecf6f9143afa32f4ffe0f935550eb29f66b3f795a4",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/aiofighterplugin/2.0.5/aiofighterplugin-2.0.5.jar"
     },
     {
         "internalName": "CombatHotkeysPlugin",
