@@ -60,6 +60,26 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/vorkathplugin/1.3.9/vorkathplugin-1.3.9.jar"
     },
     {
+        "internalName": "AmethystMiningPlugin",
+        "name": " Amethyst Miner",
+        "description": "Automates mining amethyst in the mining guild",
+        "tags": [
+            "mining",
+            "amethyst",
+            "mining guild"
+        ],
+        "version": "1.2.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "55f6f2b3a6d6afec4666622faa3983f197a7c9f20780c85bc1bf7eb8a3657a2f",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/amethystminingplugin/1.2.0/amethystminingplugin-1.2.0.jar"
+    },
+    {
         "internalName": "revKillerPlugin",
         "name": "Revenant Killer",
         "description": "Kills revenants in the wilderness.",
@@ -243,6 +263,115 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/volcanicashminerplugin/1.0.0/volcanicashminerplugin-1.0.0.jar"
     },
     {
+        "internalName": "GemCrabKillerPlugin",
+        "name": "Gem Crab Killer",
+        "description": "Automatically kills the Gem Crab boss",
+        "tags": [
+            "TaF",
+            "crab",
+            "combat",
+            "training",
+            "gem"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "8e720ed8e78cbb5f6dafb610031d5a26d57084c234fb970190d1223c6b3f953e",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gemcrabkillerplugin/1.0.0/gemcrabkillerplugin-1.0.0.jar"
+    },
+    {
+        "internalName": "TemporossPlugin",
+        "name": "Tempoross",
+        "description": "Tempoross Plugin",
+        "tags": [
+            "Tempoross",
+            "minigame",
+            "s1d",
+            "see1duck",
+            "microbot",
+            "fishing",
+            "skilling"
+        ],
+        "version": "1.4.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "c8167919eaa0560062950dc7e8ee49fa6ce9bd7b7611e3fa35745c4aee4eadf8",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/temporossplugin/1.4.0/temporossplugin-1.4.0.jar"
+    },
+    {
+        "internalName": "BlueDragonsPlugin",
+        "name": "Blue Dragons",
+        "description": "Blue dragon farmer for bones",
+        "tags": [
+            "blue",
+            "dragons",
+            "prayer"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "d16d4db45583320df0682a478f23cd30b9144d1019193dcfdd9b471d0dbdcb13",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/bluedragonsplugin/1.0.0/bluedragonsplugin-1.0.0.jar"
+    },
+    {
+        "internalName": "VarrockCleanerPlugin",
+        "name": "Museum Cleaner",
+        "description": "Varrock Museum Cleaner",
+        "tags": [
+            "varrock",
+            "museum",
+            "cleaner"
+        ],
+        "version": "1.0.6",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "8befda6ef443cada1e32ed030460019965977a6c15767572373ee8f5cb39ec9c",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/varrockcleanerplugin/1.0.6/varrockcleanerplugin-1.0.6.jar"
+    },
+    {
+        "internalName": "DemonicGorillaPlugin",
+        "name": "Demonic Gorillas",
+        "description": "Automates restocking, prayer flicking, and gear switching during Demonic Gorillas",
+        "tags": [
+            "demonic",
+            "Gorilla",
+            "flicker",
+            "weapon",
+            "switch",
+            "microbot"
+        ],
+        "version": "1.2.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "0c87d30a8e47a55d7d1a1c4a7a88bb0bc739dc81026bdf9ed2c5119aecaa3c3c",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/demonicgorillaplugin/1.2.0/demonicgorillaplugin-1.2.0.jar"
+    },
+    {
         "internalName": "TitheFarmingPlugin",
         "name": "Tithe Farm",
         "description": "Plays the Tithe farm minigame for you!",
@@ -262,6 +391,112 @@
         "disable": false,
         "sha256": "832c0fba612a86213ec7f871ee12ad8fc57c99cde21cf5e84666601282198272",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/tithefarmingplugin/1.1.1/tithefarmingplugin-1.1.1.jar"
+    },
+    {
+        "internalName": "DeadFallTrapHunterPlugin",
+        "name": "Deadfall Trap Hunter",
+        "description": "Automates hunting all creatures with Deadfall traps",
+        "tags": [
+            "hunter",
+            "deadfall",
+            "skilling",
+            "xp",
+            "loot",
+            "TaF"
+        ],
+        "version": "1.1.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "5f4ed4939beecb158c03735c83ef4a84bd4add3f195e3292788b17a360574d58",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/deadfalltraphunterplugin/1.1.0/deadfalltraphunterplugin-1.1.0.jar"
+    },
+    {
+        "internalName": "StoneChestThieverPlugin",
+        "name": " Stone Chest Thiever",
+        "description": "A plugin to automate thieving from stone chests in the Lizardman Temple.",
+        "tags": [
+            "TaF",
+            "Thieving",
+            "Stone chests"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "ff59c4ad146de8122e92f379ad99c93f539029b7103dc9c049d63dfe43a4834d",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/stonechestthieverplugin/1.0.0/stonechestthieverplugin-1.0.0.jar"
+    },
+    {
+        "internalName": "GrapeFarmerPlugin",
+        "name": "Grape farmer",
+        "description": "Grape farmer",
+        "tags": [
+            "skilling",
+            "farming",
+            "money making"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "2955f5904580d60b97e00a786af18e549626df303f55f62fd4f16c23d0abac09",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/grapefarmerplugin/1.0.0/grapefarmerplugin-1.0.0.jar"
+    },
+    {
+        "internalName": "EnsouledHeadSlayerPlugin",
+        "name": "Ensouled Heads",
+        "description": "EnsouledHeadSlayer",
+        "tags": [
+            "Ensould",
+            "head",
+            "slayer",
+            "prayer",
+            "taf",
+            "microbot"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "7ce37ed2997c564dadf4d653736ec577f798c01ab06b8e1207f595e94ae18c46",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/ensouledheadslayerplugin/1.0.0/ensouledheadslayerplugin-1.0.0.jar"
+    },
+    {
+        "internalName": "AutoMiningPlugin",
+        "name": "Auto Mining",
+        "description": "Mines and banks ores",
+        "tags": [
+            "mining",
+            "microbot",
+            "skilling"
+        ],
+        "version": "1.0.7",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "f29310be22d4f134efe0e1e25a6968ee77c5e7f1230c08a50afe2450097da2ac",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autominingplugin/1.0.7/autominingplugin-1.0.7.jar"
     },
     {
         "internalName": "AutoWoodcuttingPlugin",
@@ -303,6 +538,27 @@
         "disable": false,
         "sha256": "f80e76a290028b38ca62c2f4e9073412c93fec407635f913affdbfa8f5e219fa",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/cannonballsmelterplugin/1.1.0/cannonballsmelterplugin-1.1.0.jar"
+    },
+    {
+        "internalName": "GotrPlugin",
+        "name": "GuardiansOfTheRift",
+        "description": "Guardians of the rift plugin",
+        "tags": [
+            "runecrafting",
+            "guardians of the rift",
+            "gotr",
+            "microbot"
+        ],
+        "version": "1.2.1",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "74b0a89bd8e2f0d409a989c12b3867c78691f50360db3117cdd72b3856c74797",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gotrplugin/1.2.1/gotrplugin-1.2.1.jar"
     },
     {
         "internalName": "FishingTrawlerPlugin",
@@ -449,6 +705,52 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/sulphurnaguaplugin/1.0.0/sulphurnaguaplugin-1.0.0.jar"
     },
     {
+        "internalName": "TzhaarVenatorBowPlugin",
+        "name": "Tzhaar Venator",
+        "description": "Automatically kills Tzhaars with the Venator Bow",
+        "tags": [
+            "Tzhaar",
+            "Venator",
+            "bow",
+            "range",
+            "xp",
+            "microbot"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "59843c062faaace083c9cde1354db8f57f38477750f658441d0c1be0041ac804",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/tzhaarvenatorbowplugin/1.0.0/tzhaarvenatorbowplugin-1.0.0.jar"
+    },
+    {
+        "internalName": "KittenPlugin",
+        "name": " Kitten Tracker",
+        "description": "Automates the kitten growth process and provides notifications",
+        "tags": [
+            "cat",
+            "kitten",
+            "duck",
+            "s1d",
+            "see1duck",
+            "microbot"
+        ],
+        "version": "1.3.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "12353f5045f8ad68b21cba628702073e23553ab77cc3f6ff62325b4823773172",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/kittenplugin/1.3.0/kittenplugin-1.3.0.jar"
+    },
+    {
         "internalName": "DiscordPlugin",
         "name": "Discord Notifier",
         "description": "Sends notifications to Discord",
@@ -512,6 +814,25 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/driftnetplugin/1.0.0/driftnetplugin-1.0.0.jar"
     },
     {
+        "internalName": "GabulhasSandMinerPlugin",
+        "name": "Sandstone miner",
+        "description": "",
+        "tags": [
+            "GabulhasSandMiner",
+            "Gabulhas"
+        ],
+        "version": "1.2.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "1f2273e075bd9db1a3f685f540b3d8dce8b925be25e9d9c2b3fc245ed915f761",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gabulhassandminerplugin/1.2.0/gabulhassandminerplugin-1.2.0.jar"
+    },
+    {
         "internalName": "BlastoiseFurnacePlugin",
         "name": "BlastoiseFurnace",
         "description": "Storm's BlastoiseFurnace plugin",
@@ -556,6 +877,28 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/anonymousplugin/1.0.3/anonymousplugin-1.0.3.jar"
     },
     {
+        "internalName": "MoonlightMothPlugin",
+        "name": "MoonlightMoth",
+        "description": "Moonlight moth catcher",
+        "tags": [
+            "moonlight",
+            "moth",
+            "catcher",
+            "microbot",
+            "prayer"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "4ffeaeef0881aea52663e8129148750cd71cc3175d60ea37fb2c200e6b659f96",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/moonlightmothplugin/1.0.0/moonlightmothplugin-1.0.0.jar"
+    },
+    {
         "internalName": "AIOCamdozPlugin",
         "name": "AIO Camdozaal",
         "description": "Cardews AIO Camdozaal plugin",
@@ -598,6 +941,45 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/craftingplugin/1.0.0/craftingplugin-1.0.0.jar"
     },
     {
+        "internalName": "GabulhasKarambwansPlugin",
+        "name": "Karambwan fisher",
+        "description": "",
+        "tags": [
+            "GabulhasKarambwans",
+            "Gabulhas"
+        ],
+        "version": "1.1.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "dec2bc773ca7a142f04733cfe6839227a85e4aca0e093398ed22d70154164817",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gabulhaskarambwansplugin/1.1.0/gabulhaskarambwansplugin-1.1.0.jar"
+    },
+    {
+        "internalName": "ShadesKillerPlugin",
+        "name": "ShadesKiller",
+        "description": "Microbot ShadesKiller plugin",
+        "tags": [
+            "Shades",
+            "microbot",
+            "Moneymaking"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "7b791f3f16b8a0451f7674b48ac934af1f25386cca267c8911802df6ee5980f1",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/shadeskillerplugin/1.0.0/shadeskillerplugin-1.0.0.jar"
+    },
+    {
         "internalName": "JewelleryEnchantPlugin",
         "name": "Jewellery Enchant",
         "description": "Enchants all types of jewellery, with smart staff & rune handling.",
@@ -638,6 +1020,28 @@
         "disable": false,
         "sha256": "a6871bd5fdd4516a3003ba4896a552f065e512c7c239a14d0bab889a505abde8",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/chaosaltarplugin/1.0.0/chaosaltarplugin-1.0.0.jar"
+    },
+    {
+        "internalName": "CalcifiedRockMinerPlugin",
+        "name": "Calcified Rock Miner",
+        "description": "Calcified Rock Miner",
+        "tags": [
+            "prayer",
+            "rock",
+            "calcified",
+            "taf",
+            "microbot"
+        ],
+        "version": "1.1.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "e9c4543d7ed7803df80514e30da8cecf74030f2cf0e78604622f8397a05112d1",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/calcifiedrockminerplugin/1.1.0/calcifiedrockminerplugin-1.1.0.jar"
     },
     {
         "internalName": "ThievingPlugin",
@@ -762,6 +1166,25 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autochompykillerplugin/1.0.1/autochompykillerplugin-1.0.1.jar"
     },
     {
+        "internalName": "AutoHunterPlugin",
+        "name": "AutoHunter",
+        "description": "Microbot AutoHunter plugin",
+        "tags": [
+            "hunter",
+            "microbot"
+        ],
+        "version": "1.1.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "75237e82af0ae0bc7c4a2cad6d2300d0de5611fd2297016fc0625ab39bd24804",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autohunterplugin/1.1.0/autohunterplugin-1.1.0.jar"
+    },
+    {
         "internalName": "AutoBankStanderPlugin",
         "name": "Bank Stander",
         "description": "AIO bank standing plugin for various processing activities",
@@ -821,6 +1244,28 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/varrockanvilplugin/1.0.3/varrockanvilplugin-1.0.3.jar"
     },
     {
+        "internalName": "TormentedDemonPlugin",
+        "name": "Tormented Demons",
+        "description": "Automates restocking, prayer flicking, and gear switching during Tormented Demon",
+        "tags": [
+            "tormented",
+            "flicker",
+            "weapon",
+            "switch",
+            "microbot"
+        ],
+        "version": "1.2.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "c6d89a434a6e1ba70b000f8e0ac8d28ca0d01fea17ef747971674dd9992db6ba",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/tormenteddemonplugin/1.2.0/tormenteddemonplugin-1.2.0.jar"
+    },
+    {
         "internalName": "BaggedPlantsPlugin",
         "name": "Bagged Plants",
         "description": "Cranny's Bagged Plant Planter",
@@ -862,6 +1307,25 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autobuyerplugin/1.0.0/autobuyerplugin-1.0.0.jar"
     },
     {
+        "internalName": "StallThievingPlugin",
+        "name": "Stall Thieving",
+        "description": "Stall Thieving",
+        "tags": [
+            "thieving",
+            "microbot"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "6d92854a089e753a027b676e833d53f8fd460dcb8dba145d11cd5bff47e1caac",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/stallthievingplugin/1.0.0/stallthievingplugin-1.0.0.jar"
+    },
+    {
         "internalName": "BirdHunterPlugin",
         "name": "Bird Hunter",
         "description": "Hunts birds",
@@ -872,14 +1336,14 @@
             "skilling"
         ],
         "version": "1.0.1",
-        "minClientVersion": "2.0.7",
+        "minClientVersion": "2.0.13",
         "authors": [
-            "zerozero"
+            "Unknown Author"
         ],
-        "iconUrl": "https://chsami.github.io/Microbot-Hub/BirdHunterPlugin/assets/icon.jpg",
-        "cardUrl": "https://chsami.github.io/Microbot-Hub/BirdHunterPlugin/assets/card.jpg",
+        "iconUrl": "",
+        "cardUrl": "",
         "disable": false,
-        "sha256": "85a041717368f08b90ef6957f94f52b9e73c110c762371fa5d3db5ce7cadef36",
+        "sha256": "fdddd8e2f7a6bdb439e6aa7921d856042b416a1c1455578131479ddf7c002917",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/birdhunterplugin/1.0.1/birdhunterplugin-1.0.1.jar"
     },
     {
@@ -903,6 +1367,26 @@
         "disable": false,
         "sha256": "3f1256c35d98c239c40973535f1b53d3f97c9a6f30f6183fe71a6f76bd8d6ad8",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/bonestobananasplugin/1.0.1/bonestobananasplugin-1.0.1.jar"
+    },
+    {
+        "internalName": "SalamanderPlugin",
+        "name": "Salamanders",
+        "description": "Automates salamander hunting",
+        "tags": [
+            "hunter",
+            "salamanders",
+            "skilling"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "ee03a615ac7796db15ec6395d7bc30d79d8a9391f1b7d99749baf34b7abf3dec",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/salamanderplugin/1.0.0/salamanderplugin-1.0.0.jar"
     },
     {
         "internalName": "MinnowsPlugin",
@@ -1089,6 +1573,29 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/flipperschaserplugin/1.0.0/flipperschaserplugin-1.0.0.jar"
     },
     {
+        "internalName": "TearsOfGuthixPlugin",
+        "name": "Tears of Guthix",
+        "description": "Optimally complete the Tears of Guthix D&D",
+        "tags": [
+            "Tears",
+            "of",
+            "guthix",
+            "taf",
+            "xp",
+            "microbot"
+        ],
+        "version": "1.0.3",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "46d0ba855d2fb1e4adae473a770303c7b31612abe302ab6fa6ea5888cb1ba5e7",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/tearsofguthixplugin/1.0.3/tearsofguthixplugin-1.0.3.jar"
+    },
+    {
         "internalName": "EventDismissPlugin",
         "name": "Event Dismiss",
         "description": "Random Event Dismisser",
@@ -1107,6 +1614,26 @@
         "disable": false,
         "sha256": "fd5d44a8360464d84256319b5029a041cc00d71bb9b7fa28490113cb3c8de227",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/eventdismissplugin/1.0.1/eventdismissplugin-1.0.1.jar"
+    },
+    {
+        "internalName": "HouseTabPlugin",
+        "name": "HouseTab",
+        "description": "Microbot HouseTab plugin",
+        "tags": [
+            "microbot",
+            "magic",
+            "moneymaking"
+        ],
+        "version": "1.0.7",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "4ab02d1ea539b885921fccc3d13b379c9d2b75e893933e149377ee408f9d42f5",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/housetabplugin/1.0.7/housetabplugin-1.0.7.jar"
     },
     {
         "internalName": "MWintertodtPlugin",
@@ -1128,6 +1655,33 @@
         "disable": false,
         "sha256": "344f6d977935d751c888ebd5f2c082e538ee41af646bfdf71d729f2f93d0a74a",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/mwintertodtplugin/1.4.7/mwintertodtplugin-1.4.7.jar"
+    },
+    {
+        "internalName": "SummerGardenPlugin",
+        "name": "Summers Garden",
+        "description": " Microbot Summers Garden (V2.1)",
+        "tags": [
+            "Summers Garden",
+            "minigame",
+            "thieving",
+            "microbot",
+            "skilling",
+            "summer",
+            "summers",
+            "garden",
+            "sq'irk",
+            "juice"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "37e0a232a45a79e971bb264bcbc11f407e913da153a8e97d5d03347042b7d445",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/summergardenplugin/1.0.0/summergardenplugin-1.0.0.jar"
     },
     {
         "internalName": "TowerOfLifeCCPlugin",
@@ -1195,6 +1749,25 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/themessplugin/1.0.2/themessplugin-1.0.2.jar"
     },
     {
+        "internalName": "TanLeatherPlugin",
+        "name": "Lunar Tanner",
+        "description": "Tans hides on the lunar spellbook",
+        "tags": [
+            "magic",
+            "moneymaking"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "15b0330edc105b1f8d7365240a734358a71b4b999d7432900720a4e030e131fd",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/tanleatherplugin/1.0.0/tanleatherplugin-1.0.0.jar"
+    },
+    {
         "internalName": "DelvePrayerHelperPlugin",
         "name": "Delve Prayer Helper",
         "description": "Automatically prays against the Delve boss attacks",
@@ -1257,6 +1830,29 @@
         "disable": false,
         "sha256": "94cfd4bde54b390ae2a0e625b6c23a80383d24c8ed9ee51fbf7c9d29d7eba722",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/humidifierplugin/1.6.2/humidifierplugin-1.6.2.jar"
+    },
+    {
+        "internalName": "GiantSeaweedFarmerPlugin",
+        "name": "Giant Seaweed",
+        "description": "Farms giant seaweed.",
+        "tags": [
+            "GiantSeaweedFarmer",
+            "seaweed",
+            "farming",
+            "ironman",
+            "taf",
+            "microbot"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "86539b1ee60a3653b38c23bf177dd8b82e7f6fe26c1ebede1085e18393917ab6",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/giantseaweedfarmerplugin/1.0.0/giantseaweedfarmerplugin-1.0.0.jar"
     },
     {
         "internalName": "CharterCrafterPlugin",
@@ -1376,6 +1972,26 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/mixologyplugin/1.0.2-beta/mixologyplugin-1.0.2-beta.jar"
     },
     {
+        "internalName": "ScurriusPlugin",
+        "name": "Scurrius",
+        "description": "Scurrius example plugin",
+        "tags": [
+            "microbot",
+            "scurrius",
+            "boss"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "56020144b9e1fdd8ce91a7f4cf49c4bb97922b639de4c16afe484e6266ae2231",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/scurriusplugin/1.0.0/scurriusplugin-1.0.0.jar"
+    },
+    {
         "internalName": "MicroAgilityPlugin",
         "name": "Agility",
         "description": "Microbot agility plugin",
@@ -1396,23 +2012,23 @@
     },
     {
         "internalName": "ConstructionPlugin",
-        "name": "Construction",
-        "description": "Microbot construction plugin",
+        "name": "Construction 2",
+        "description": "Geoff's Microbot construction plugin with added new bits.",
         "tags": [
             "skilling",
             "microbot",
             "construction"
         ],
-        "version": "1.1.0",
-        "minClientVersion": "2.0.7",
+        "version": "1.3.1",
+        "minClientVersion": "2.0.13",
         "authors": [
-            "Mocrosoft"
+            "Unknown Author"
         ],
-        "iconUrl": "https://chsami.github.io/Microbot-Hub/ConstructionPlugin/assets/icon.png",
-        "cardUrl": "https://chsami.github.io/Microbot-Hub/ConstructionPlugin/assets/card.png",
+        "iconUrl": "",
+        "cardUrl": "",
         "disable": false,
-        "sha256": "bfc4b6539194f444140c8ae00340e68e12fe326cab758c8124deae7ad2929ef5",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/constructionplugin/1.1.0/constructionplugin-1.1.0.jar"
+        "sha256": "05d65cf771d183ecc2d7ae8f0890219cf1ac82701f52052fb94fbdabbae6b7c0",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/constructionplugin/1.3.1/constructionplugin-1.3.1.jar"
     },
     {
         "internalName": "MoonsOfPerilPlugin",
@@ -1520,6 +2136,25 @@
         "disable": false,
         "sha256": "efce433d9efa39597019114591ba2b9adc5ceb5e86bd27a1484d96cfc5a964ad",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gefiremakerplugin/1.0.1/gefiremakerplugin-1.0.1.jar"
+    },
+    {
+        "internalName": "GabulhasGlassMakePlugin",
+        "name": "Glass Make",
+        "description": "",
+        "tags": [
+            "GabulhasGlassMake",
+            "Gabulhas"
+        ],
+        "version": "1.0.1",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "72153809e2f1031b8a9d19d2e15162875a889af212ea00c89b9b010ef7ef5961",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gabulhasglassmakeplugin/1.0.1/gabulhasglassmakeplugin-1.0.1.jar"
     },
     {
         "internalName": "ExamplePlugin",
@@ -1648,6 +2283,27 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/roguesdenplugin/1.0.0/roguesdenplugin-1.0.0.jar"
     },
     {
+        "internalName": "AutoSmeltingPlugin",
+        "name": "Auto Smelting",
+        "description": "Smelt ores/coal into bars",
+        "tags": [
+            "smithing",
+            "smelting",
+            "microbot",
+            "skilling"
+        ],
+        "version": "1.0.3",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "cb4516dd2a5cde3a389ec69fbcf9dc529b856a745ca19c45059ee0cda9b9d08a",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autosmeltingplugin/1.0.3/autosmeltingplugin-1.0.3.jar"
+    },
+    {
         "internalName": "GECookerPlugin",
         "name": "GE Cooker",
         "description": "Cooks items on fires found at the Grand Exchange.",
@@ -1733,6 +2389,25 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/animatedarmourplugin/1.0.1/animatedarmourplugin-1.0.1.jar"
     },
     {
+        "internalName": "GabulhasGoldRushPlugin",
+        "name": "Gold Rush",
+        "description": "",
+        "tags": [
+            "GabulhasGoldRush",
+            "Gabulhas"
+        ],
+        "version": "1.0.6",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "903bdf08f5d0dbec0236c10122f320d594b41bd361720d05cb1354f7b7032e92",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gabulhasgoldrushplugin/1.0.6/gabulhasgoldrushplugin-1.0.6.jar"
+    },
+    {
         "internalName": "BlessedWinePlugin",
         "name": "Blessed Wine",
         "description": "Automating Prayer Training using blessed wines at Cam Torum",
@@ -1753,6 +2428,27 @@
         "disable": false,
         "sha256": "28ed9c933ab4585220d38813bb188fc21b27386faa9069253ca2da53c978d3e5",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/blessedwineplugin/1.0.2/blessedwineplugin-1.0.2.jar"
+    },
+    {
+        "internalName": "PyreFoxPlugin",
+        "name": "<html>[<font color=orange>KaaS</font>]",
+        "description": "Hunts pyre foxes for you!",
+        "tags": [
+            "kaas",
+            "hunter",
+            "pyre",
+            "fox"
+        ],
+        "version": "1.0.7",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "63e534e99adf93a622afbfec7a54899bfa2436aab7e4d6a57ece3a63cb724bd5",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pyrefoxplugin/1.0.7/pyrefoxplugin-1.0.7.jar"
     },
     {
         "internalName": "WinePlugin",
@@ -1797,6 +2493,113 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/banktabsorterplugin/1.0.0/banktabsorterplugin-1.0.0.jar"
     },
     {
+        "internalName": "AmmoniteCrabPlugin",
+        "name": "AmmoniteCrabs",
+        "description": "Kills AmmoniteCrabs & resets",
+        "tags": [
+            "Combat",
+            "TaF",
+            "crabs",
+            "AmmoniteCrabs"
+        ],
+        "version": "1.1.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "8f57eeebb47a0de48f6d6a8a2bb864e3cb8df9cd168709fa87bc7e56554081a2",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/ammonitecrabplugin/1.1.0/ammonitecrabplugin-1.1.0.jar"
+    },
+    {
+        "internalName": "OrbChargerPlugin",
+        "name": "Orb Charger",
+        "description": "Microbot Orb Charger Plugin",
+        "tags": [
+            "magic",
+            "microbot",
+            "money",
+            "money making"
+        ],
+        "version": "1.1.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "54a41f46b2d898e2c980727a35b40c941da6e5e0c8854629a3a5966ebca3a9a9",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/orbchargerplugin/1.1.0/orbchargerplugin-1.1.0.jar"
+    },
+    {
+        "internalName": "AutoRunecraftPlugin",
+        "name": "Auto Runecrafter",
+        "description": "F2P Auto Runecraft Plugin",
+        "tags": [
+            "Chill",
+            "Runecraft",
+            "rc",
+            "f2p"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "d38b756b5f89561ab37bbe28b98ecafc3ccbda6fc5a9b16378c091a34890acc5",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autorunecraftplugin/1.0.0/autorunecraftplugin-1.0.0.jar"
+    },
+    {
+        "internalName": "RoyalTitansPlugin",
+        "name": "Royal Titans",
+        "description": "Kills the Royal Titans boss with another bot",
+        "tags": [
+            "Combat",
+            "bossing",
+            "TaF",
+            "Royal Titans",
+            "Ice giant",
+            "Fire giant",
+            "Duo"
+        ],
+        "version": "1.1.0",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "30f2515b3dadd5c40b341c3c651a6e57f46cf0cb433b4f4251647be6cfedb92f",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/royaltitansplugin/1.1.0/royaltitansplugin-1.1.0.jar"
+    },
+    {
+        "internalName": "GiantsFoundryPlugin",
+        "name": "GiantsFoundry",
+        "description": "Microbot giants foundry plugin",
+        "tags": [
+            "minigame",
+            "microbot",
+            "smithing"
+        ],
+        "version": "1.0.5",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "781e5184379343aa1b42ce7958b12e70556f7114b33e538d0ce7454e94e5121b",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/giantsfoundryplugin/1.0.5/giantsfoundryplugin-1.0.5.jar"
+    },
+    {
         "internalName": "FletchingPlugin",
         "name": "Fletcher",
         "description": "Microbot fletching plugin",
@@ -1815,6 +2618,31 @@
         "disable": false,
         "sha256": "294b8a2b5e6c091fcb075b0eaa275ab0d61a4d9f24e8c055f0defde106ea0f30",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/fletchingplugin/1.6.2/fletchingplugin-1.6.2.jar"
+    },
+    {
+        "internalName": "MahoganyHomesPlugin",
+        "name": " Mahogany Homes",
+        "description": "Automates Mahogany Homes contracts",
+        "tags": [
+            "mahogany",
+            "homes",
+            "construction",
+            "contract",
+            "minigame",
+            "s1d",
+            "see1duck",
+            "microbot"
+        ],
+        "version": "0.0.6",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "49de14c28d83ef79c2125797dec617f6f5e20c46ba2aff53b0f3527b3b73aa42",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/mahoganyhomesplugin/0.0.6/mahoganyhomesplugin-0.0.6.jar"
     },
     {
         "internalName": "OuraniaPlugin",
@@ -1836,6 +2664,44 @@
         "disable": false,
         "sha256": "6f563f9f8938089f8ff229159f47428c6b852eeb4443e459502b36136aaca98e",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/ouraniaplugin/1.4.2/ouraniaplugin-1.4.2.jar"
+    },
+    {
+        "internalName": "LunarPlankMakePlugin",
+        "name": "Lunar Plank Make",
+        "description": "Geoff's lunar plank maker",
+        "tags": [
+            "magic",
+            "moneymaking"
+        ],
+        "version": "1.0.1",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "e0fe6b172831d515f71671b8ef7b635f2fae8e4dd4f64822f91fdbc6d8acf57b",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/lunarplankmakeplugin/1.0.1/lunarplankmakeplugin-1.0.1.jar"
+    },
+    {
+        "internalName": "SandCrabPlugin",
+        "name": "SandCrabs",
+        "description": "Kills SandCrab & resets",
+        "tags": [
+            "Combat",
+            "microbot"
+        ],
+        "version": "1.4.1",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "41997cc5b0c309cb3724d393c8b6a6a2790032a85fa8cb392fea02dd28d4ff22",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/sandcrabplugin/1.4.1/sandcrabplugin-1.4.1.jar"
     },
     {
         "internalName": "BarbarianVillageFisherPlugin",
@@ -1862,6 +2728,28 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/barbarianvillagefisherplugin/1.0.1/barbarianvillagefisherplugin-1.0.1.jar"
     },
     {
+        "internalName": "PumperPlugin",
+        "name": "Pumper",
+        "description": "LiftedMango's Pumper",
+        "tags": [
+            "pure",
+            "strength",
+            "str",
+            "pump",
+            "blast furnace"
+        ],
+        "version": "1.0.7",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "9a3e46040a0eed797a1abfef0be9a8609130a510dfa5d88f4cea00a51bc76c6d",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pumperplugin/1.0.7/pumperplugin-1.0.7.jar"
+    },
+    {
         "internalName": "ArceuusRcPlugin",
         "name": "Arceuus RC",
         "description": "Runecrafting at Arceuus",
@@ -1882,5 +2770,24 @@
         "disable": false,
         "sha256": "b7a70a4af10c0bf1ef458f49e2c1678dafed2afb5e7cbd91a67ade4e02ed588e",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/arceuusrcplugin/1.0.2/arceuusrcplugin-1.0.2.jar"
+    },
+    {
+        "internalName": "QoLPlugin",
+        "name": "QoL",
+        "description": "Quality of Life Plugin",
+        "tags": [
+            "QoL",
+            "microbot"
+        ],
+        "version": "1.8.6",
+        "minClientVersion": "2.0.13",
+        "authors": [
+            "Unknown Author"
+        ],
+        "iconUrl": "",
+        "cardUrl": "",
+        "disable": false,
+        "sha256": "68aa5f10b97e7fcc18bcea788f3f469becbb7cdf3d36e260bb801447c74dcbdc",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/qolplugin/1.8.6/qolplugin-1.8.6.jar"
     }
 ]
