@@ -2349,26 +2349,6 @@
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/npctannerplugin/2.0.1/npctannerplugin-2.0.1.jar"
     },
     {
-        "internalName": "QuestHelperPlugin",
-        "name": "Quest Helper",
-        "description": "Helps you with questing",
-        "tags": [
-            "quest",
-            "helper",
-            "overlay"
-        ],
-        "version": "1.0.3",
-        "minClientVersion": "2.0.13",
-        "authors": [
-            "Unknown Author"
-        ],
-        "iconUrl": "",
-        "cardUrl": "",
-        "disable": false,
-        "sha256": "c9d26700cfedf97383526903f68c33081021566604be252c66ba0dd9ea011a74",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/questhelperplugin/1.0.3/questhelperplugin-1.0.3.jar"
-    },
-    {
         "internalName": "AutoSmeltingPlugin",
         "name": "Auto Smelting",
         "description": "Smelt ores/coal into bars",
