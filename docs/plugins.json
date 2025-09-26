@@ -19,7 +19,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "7ce37ed2997c564dadf4d653736ec577f798c01ab06b8e1207f595e94ae18c46",
+        "sha256": "3f7e1254a54503f61495ffa84623aabf1b294372e4551a9825c53b913643d7de",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/ensouledheadslayerplugin/1.0.0/ensouledheadslayerplugin-1.0.0.jar"
     },
     {
@@ -62,7 +62,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "74b0a89bd8e2f0d409a989c12b3867c78691f50360db3117cdd72b3856c74797",
+        "sha256": "decda7e4552d2fe2b8e167fefaab55882d886f21da6445a5bd743965be2e123c",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gotrplugin/1.2.1/gotrplugin-1.2.1.jar"
     },
     {
@@ -186,7 +186,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "54a41f46b2d898e2c980727a35b40c941da6e5e0c8854629a3a5966ebca3a9a9",
+        "sha256": "7ae7ca2c2a267495c9dd719c37d801a8a3fa49b77c46c7ea18b03667c59a2123",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/orbchargerplugin/1.1.0/orbchargerplugin-1.1.0.jar"
     },
     {
@@ -299,7 +299,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "37e0a232a45a79e971bb264bcbc11f407e913da153a8e97d5d03347042b7d445",
+        "sha256": "fac0c71da68a9fe630a02d557c8676cc126c28fad26da3053e2d8a6ce6f4f56b",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/summergardenplugin/1.0.0/summergardenplugin-1.0.0.jar"
     },
     {
@@ -399,7 +399,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/AutoFishingPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/AutoFishingPlugin/assets/card.png",
         "disable": false,
-        "sha256": "53c0e705c07847d2f4541b0c0d1a8c12f4934abff945e72fe5b9283343a1c16e",
+        "sha256": "5cfa322c4b4dbc7025c6b682e816788fe2cb2585a41bdc9aaf012adc02ac799f",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autofishingplugin/1.0.5/autofishingplugin-1.0.5.jar"
     },
     {
@@ -527,7 +527,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "f29310be22d4f134efe0e1e25a6968ee77c5e7f1230c08a50afe2450097da2ac",
+        "sha256": "1e4396771ed1671552e74e1502332276102979259534a22984ee0ddc0b6be848",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autominingplugin/1.0.7/autominingplugin-1.0.7.jar"
     },
     {
@@ -592,7 +592,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "903bdf08f5d0dbec0236c10122f320d594b41bd361720d05cb1354f7b7032e92",
+        "sha256": "936bd0e095d253136645c3ee7b0191635a59382f8e8a80f41bd77d7af29c1873",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gabulhasgoldrushplugin/1.0.6/gabulhasgoldrushplugin-1.0.6.jar"
     },
     {
@@ -615,7 +615,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "0c87d30a8e47a55d7d1a1c4a7a88bb0bc739dc81026bdf9ed2c5119aecaa3c3c",
+        "sha256": "3cecf2969641d0f1c6ab48b158cf244af0de63efa1b7b82925a18090f3976ff4",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/demonicgorillaplugin/1.2.0/demonicgorillaplugin-1.2.0.jar"
     },
     {
@@ -635,7 +635,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "55f6f2b3a6d6afec4666622faa3983f197a7c9f20780c85bc1bf7eb8a3657a2f",
+        "sha256": "77835921e2966a6bea6f9697269f85a913d4bdbf690aa2a6bda67dc38c490bd2",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/amethystminingplugin/1.2.0/amethystminingplugin-1.2.0.jar"
     },
     {
@@ -820,7 +820,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/VarrockAnvilPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/VarrockAnvilPlugin/assets/card.png",
         "disable": false,
-        "sha256": "1a21e8c456aef6a6b21ea94b306aabb5a10dc776c020b49a5dfbc25f92cf44ab",
+        "sha256": "166ee4453055bf8230676edae023251bb93467965ad12e23defc1178a4096834",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/varrockanvilplugin/1.0.3/varrockanvilplugin-1.0.3.jar"
     },
     {
@@ -883,7 +883,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/GiantMolePlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/GiantMolePlugin/assets/card.png",
         "disable": false,
-        "sha256": "25c49ddf215861cb26c5a7ab1c4b8db71b9010b11e79d36545ce67a5a6ed220d",
+        "sha256": "dbb8826aa00b6c537de443a7d3733be16182d64249948024d5f3c2a387ce01e9",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/giantmoleplugin/0.0.3/giantmoleplugin-0.0.3.jar"
     },
     {
@@ -1126,7 +1126,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/OuraniaPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/OuraniaPlugin/assets/card.png",
         "disable": false,
-        "sha256": "6f563f9f8938089f8ff229159f47428c6b852eeb4443e459502b36136aaca98e",
+        "sha256": "b01eb5953385a8299fd6240b0d33548b6c459a1228d76f91a61318e070d65128",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/ouraniaplugin/1.4.2/ouraniaplugin-1.4.2.jar"
     },
     {
@@ -1148,7 +1148,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "9a3e46040a0eed797a1abfef0be9a8609130a510dfa5d88f4cea00a51bc76c6d",
+        "sha256": "8aa623addda8bc04cbd091506067bd5e3341b876e412534a18b379f14ef45434",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pumperplugin/1.0.7/pumperplugin-1.0.7.jar"
     },
     {
@@ -1188,7 +1188,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "868b337f84176567fc32eaa1d64b94a3bcda9fe43f8fe158c92a1a6ed12ca210",
+        "sha256": "7077b32bf9618a3c2f26de18d7bcd35dcc604369831e2cdd74e442167f0e84f7",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/piebakerplugin/1.0.0/piebakerplugin-1.0.0.jar"
     },
     {
@@ -1432,7 +1432,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "75237e82af0ae0bc7c4a2cad6d2300d0de5611fd2297016fc0625ab39bd24804",
+        "sha256": "b4ae1b23ede801d116d003094a3c3989b373e046d847822c79d97bf36c5f4183",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autohunterplugin/1.1.0/autohunterplugin-1.1.0.jar"
     },
     {
@@ -1500,7 +1500,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "8f57eeebb47a0de48f6d6a8a2bb864e3cb8df9cd168709fa87bc7e56554081a2",
+        "sha256": "89b4843f3ef6c125045c12d1a5a1c5abcb26fbb907ed06c711452c7db07f6a5b",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/ammonitecrabplugin/1.1.0/ammonitecrabplugin-1.1.0.jar"
     },
     {
@@ -1540,7 +1540,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "05d65cf771d183ecc2d7ae8f0890219cf1ac82701f52052fb94fbdabbae6b7c0",
+        "sha256": "f15dcfd2d78bd50d43a76c3ca6113ea85161af1bdf9cf925e451981e2212aa33",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/constructionplugin/1.3.1/constructionplugin-1.3.1.jar"
     },
     {
@@ -1664,7 +1664,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "68aa5f10b97e7fcc18bcea788f3f469becbb7cdf3d36e260bb801447c74dcbdc",
+        "sha256": "0ba757d6a37a812cc2a533c283ff3d49ce2d8caefe944f1c19cb7654101d474a",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/qolplugin/1.8.6/qolplugin-1.8.6.jar"
     },
     {
@@ -1858,7 +1858,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "5f4ed4939beecb158c03735c83ef4a84bd4add3f195e3292788b17a360574d58",
+        "sha256": "94818708564a9adcb0adc050d3d885b17cb1b04095259cc70fe5f026e8f7f983",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/deadfalltraphunterplugin/1.1.0/deadfalltraphunterplugin-1.1.0.jar"
     },
     {
@@ -1923,7 +1923,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "dec2bc773ca7a142f04733cfe6839227a85e4aca0e093398ed22d70154164817",
+        "sha256": "6df26314e093c4925a925de026511a6b5821cfd6cde72015c2bde772e1a6fe4e",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/gabulhaskarambwansplugin/1.1.0/gabulhaskarambwansplugin-1.1.0.jar"
     },
     {
@@ -2005,7 +2005,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "2955f5904580d60b97e00a786af18e549626df303f55f62fd4f16c23d0abac09",
+        "sha256": "cbf4ec77bb31f293074f4bec4d80b98c1e2af2614a9c843bc71a73fa19979214",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/grapefarmerplugin/1.0.0/grapefarmerplugin-1.0.0.jar"
     },
     {
@@ -2287,7 +2287,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "e9c4543d7ed7803df80514e30da8cecf74030f2cf0e78604622f8397a05112d1",
+        "sha256": "b45be3728b430455ed46f1073fc19079948c4e1c00b5f747877e2d7a3cf13537",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/calcifiedrockminerplugin/1.1.0/calcifiedrockminerplugin-1.1.0.jar"
     },
     {
@@ -2387,7 +2387,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "63e534e99adf93a622afbfec7a54899bfa2436aab7e4d6a57ece3a63cb724bd5",
+        "sha256": "d8c68b78d180f233314cd547397d55a2027aa52d081e00821168d85286b8088e",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pyrefoxplugin/1.0.7/pyrefoxplugin-1.0.7.jar"
     },
     {
@@ -2407,7 +2407,7 @@
         "iconUrl": "https://chsami.github.io/Microbot-Hub/HerbiboarPlugin/assets/icon.png",
         "cardUrl": "https://chsami.github.io/Microbot-Hub/HerbiboarPlugin/assets/card.png",
         "disable": false,
-        "sha256": "df80333010c56c39cbea8562cfb2ade10406e20e8f6abc83bf6c4445ff2b9354",
+        "sha256": "df40f490d369642c1cf603f8ace9a6889f95b5fdf9f39e95cc641f7def77bf9e",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/herbiboarplugin/1.2.4/herbiboarplugin-1.2.4.jar"
     },
     {
@@ -2554,7 +2554,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "30f2515b3dadd5c40b341c3c651a6e57f46cf0cb433b4f4251647be6cfedb92f",
+        "sha256": "5295cd1baa6439f9985a18d56b40601f9d86e44aec1020d9f1a6eab4cb5e9990",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/royaltitansplugin/1.1.0/royaltitansplugin-1.1.0.jar"
     },
     {
@@ -2639,7 +2639,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "d38b756b5f89561ab37bbe28b98ecafc3ccbda6fc5a9b16378c091a34890acc5",
+        "sha256": "ae62f5af906cd9f8f605008782ab62d6fd6a3555f596578ab3a10c9a5e2c4d56",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/autorunecraftplugin/1.0.0/autorunecraftplugin-1.0.0.jar"
     },
     {
@@ -2718,7 +2718,7 @@
         "iconUrl": "",
         "cardUrl": "",
         "disable": false,
-        "sha256": "4ab02d1ea539b885921fccc3d13b379c9d2b75e893933e149377ee408f9d42f5",
+        "sha256": "49e2dca43c2402b21802c5b0ac80c089b17a9d7c864d6c339fb6dfdf3802e2c1",
         "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/housetabplugin/1.0.7/housetabplugin-1.0.7.jar"
     },
     {
