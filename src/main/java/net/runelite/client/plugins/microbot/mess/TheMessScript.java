@@ -71,14 +71,6 @@ public class TheMessScript extends Script {
         Rs2AntibanSettings.actionCooldownActive = true;
         Rs2Antiban.setTIMEOUT(Rs2Random.betweenInclusive(1, 4));
 
-        /*
-         * Set camera settings for the script.
-         * To avoid clicking through UI elements like inventory and such.
-         */
-        Rs2Camera.setZoom(Rs2Random.randomGaussian(200, 20));
-        Rs2Camera.setYaw((Rs2Random.dicePercentage(50)? Rs2Random.randomGaussian(750, 50) : Rs2Random.randomGaussian(1700, 50)));
-        Rs2Camera.setPitch(Rs2Random.betweenInclusive(418, 512));
-
         mainScheduledFuture = scheduledExecutorService.scheduleWithFixedDelay(() -> {
             try {
                 if (!Microbot.isLoggedIn() || !super.run() || !isRunning()) return;
@@ -418,47 +410,92 @@ public class TheMessScript extends Script {
     }
 
     private BooleanSupplier cook() {
-        int itemId;
+        int requiredItemId;
+        boolean isFinishStep = false;
+
         switch (getCurrentState()) {
             case USE_CLAY_OVEN:
-                itemId = ItemID.HOSIDIUS_SERVERY_RAW_MEAT;
+                requiredItemId = ItemID.HOSIDIUS_SERVERY_RAW_MEAT;
                 break;
             case FINISH_COOKING:
-                if (config.dish() == Dish.MEAT_PIE) {
-                    itemId = ItemID.HOSIDIUS_SERVERY_UNCOOKED_MEAT_PIE;
-                } else if (config.dish() == Dish.STEW) {
-                    itemId = ItemID.HOSIDIUS_SERVERY_UNCOOKED_STEW;
-                } else if (config.dish() == Dish.PIZZA) {
-                    itemId = ItemID.HOSIDIUS_SERVERY_UNCOOKED_PIZZA;
-                } else {
-                    debug("Unknown dish selected, cannot finish cooking.");
-                    return () -> false;
+                isFinishStep = true;
+                switch (config.dish()) {
+                    case MEAT_PIE:
+                        requiredItemId = ItemID.HOSIDIUS_SERVERY_UNCOOKED_MEAT_PIE;
+                        break;
+                    case STEW:
+                        requiredItemId = ItemID.HOSIDIUS_SERVERY_UNCOOKED_STEW;
+                        break;
+                    case PIZZA:
+                        requiredItemId = ItemID.HOSIDIUS_SERVERY_UNCOOKED_PIZZA;
+                        break;
+                    default:
+                        debug("Unknown dish selected, cannot finish cooking.");
+                        return () -> false;
                 }
                 break;
             default:
                 debug("Unknown state for cooking, cannot proceed.");
                 return () -> false;
         }
-        return () -> {
-            if (Rs2GameObject.canReach(CLAY_OVEN_LOC)) {
-                Rs2Inventory.useItemOnObject(itemId, Rs2GameObject.getGameObject(CLAY_OVEN_LOC).getId());
-                sleepUntil(() -> Rs2Widget.hasWidget("How many would you like to cook?"));
-                if (Rs2Widget.hasWidget("How many would you like to cook?")) {
-                    Rs2Keyboard.keyPress(KeyEvent.VK_SPACE);
-                    Rs2Antiban.actionCooldown();
-                }
-                Rs2Inventory.waitForInventoryChanges(5000);
-                sleepUntil(() -> !Rs2Player.isAnimating(1000), 50000);
-                Rs2Antiban.actionCooldown();
-            }
-            return false;
-        };
 
+        final int itemId = requiredItemId;
+        final boolean finishStep = isFinishStep;
+
+        return () -> {
+            // Guard: Oven reachable
+            if (!Rs2GameObject.canReach(CLAY_OVEN_LOC)) {
+                debug("Clay oven not reachable.");
+                return false;
+            }
+
+            var ovenObj = Rs2GameObject.getGameObject(CLAY_OVEN_LOC);
+            if (ovenObj == null) {
+                debug("Clay oven game object not found.");
+                return false;
+            }
+
+            // Guard: Have items to cook
+            if (!Rs2Inventory.hasItem(itemId)) {
+                debug("No required item (" + itemId + ") to cook.");
+                return false;
+            }
+
+            // Interact with oven
+            Rs2Inventory.useItemOnObject(itemId, ovenObj.getId());
+
+            // Handle cook dialog if it appears
+            boolean dialogShown = sleepUntil(
+                    () -> Rs2Widget.hasWidget("How many would you like to cook?"),
+                    3000
+            );
+            if (dialogShown) {
+                Rs2Keyboard.keyPress(KeyEvent.VK_SPACE); // Cook all
+                Rs2Antiban.actionCooldown();
+            } else {
+                debug("Cook dialog not shown - continuing to wait for inventory/animation.");
+            }
+
+            // Wait until all uncooked items are gone AND animation stops
+            boolean finishedCooking = sleepUntil(
+                    () -> !Rs2Player.isAnimating(500) && !Rs2Inventory.hasItem(itemId),
+                    60000
+            );
+
+            if (finishedCooking) {
+                Rs2Antiban.actionCooldown();
+                return true;
+            } else {
+                debug("Cooking not finished yet.");
+                return false;
+            }
+        };
     }
 
     private BooleanSupplier combineItems() {
-        int item1;
-        int item2;
+        final int item1;
+        final int item2;
+
         switch (getCurrentState()) {
             case COMBINE_PASTRY_DOUGH:
             case COMBINE_PIZZA_BASE:
@@ -501,76 +538,140 @@ public class TheMessScript extends Script {
                 debug("Unknown state for combining items, cannot proceed.");
                 return () -> false;
         }
+
+        final int primary = item1;
+        final int secondary = item2;
+
         return () -> {
-            if (Rs2Inventory.hasItem(item1) && Rs2Inventory.hasItem(item2)) {
-                boolean alreadyInRightSlots = (Rs2Inventory.slotContains(26, item1) && Rs2Inventory.slotContains(27, item2)) ||
-                        (Rs2Inventory.slotContains(26, item2) && Rs2Inventory.slotContains(27, item1));
-
-                if (!alreadyInRightSlots) {
-                    Rs2ItemModel lastOfItem1 = Rs2Inventory.getLast(item1);
-                    Rs2ItemModel lastOfItem2 = Rs2Inventory.getLast(item2);
-
-                    if (lastOfItem1 != null && lastOfItem2 != null) {
-                        if (lastOfItem1.getSlot() != 26 && lastOfItem1.getSlot() != 27) {
-                            if (lastOfItem2.getSlot() == 26) {
-                                Rs2Inventory.moveItemToSlot(lastOfItem1, 27);
-                            } else if (lastOfItem2.getSlot() == 27) {
-                                Rs2Inventory.moveItemToSlot(lastOfItem1, 26);
-                            } else {
-                                Rs2Inventory.moveItemToSlot(lastOfItem1, 26);
-                                sleepUntil(() -> Rs2Inventory.waitForInventoryChanges(2000));
-                                Rs2Inventory.moveItemToSlot(lastOfItem2, 27);
-                                sleepUntil(() -> Rs2Inventory.waitForInventoryChanges(2000));
-                            }
-                        }
-                    } else {
-                        debug("Failed to find items in inventory, cannot combine.");
-                        return false;
-                    }
-                }
-
-                Widget item1Widget = Rs2Inventory.getInventoryWidget().getChild(26);
-                Widget item2Widget = Rs2Inventory.getInventoryWidget().getChild(27);
-                if (getCurrentState() == State.COMBINE_PASTRY_DOUGH || getCurrentState() == State.COMBINE_PIZZA_BASE) {
-                    String option = (getCurrentState() == State.COMBINE_PASTRY_DOUGH) ? "Pastry dough" : "Pizza base";
-                    Rs2Widget.clickWidget(item1Widget);
-                    Rs2Widget.clickWidget(item2Widget);
-                    Rs2Dialogue.sleepUntilSelectAnOption();
-                    Rs2Dialogue.keyPressForDialogueOption(option);
-                    sleepUntil(() -> !Rs2Inventory.hasItem(item1), 30000);
-                    Rs2Antiban.actionCooldown();
-                    return true;
-                } else if (getCurrentState() == State.CUT_PINEAPPLE) {
-                    while (Rs2Inventory.hasItem(ItemID.HOSIDIUS_SERVERY_PINEAPPLE) && canContinue()) {
-                        Rs2Widget.clickWidget(item1Widget);
-                        sleepGaussian(120, 40);
-                        Rs2Widget.clickWidget(item2Widget);
-                        sleepGaussian(120, 40);
-                    }
-
-                    Rs2ItemModel knife = Rs2Inventory.getLast(ItemID.KNIFE);
-                    if (knife != null) {
-                        Rs2Inventory.moveItemToSlot(knife, (Rs2Inventory.slotContains(0, ItemID.KNIFE)) ? 1 : 0);
-                        sleepUntil(() -> Rs2Inventory.waitForInventoryChanges(2000));
-                        return true;
-                    } else {
-                        debug("Failed to find knife in inventory, cannot move knife.");
-                        return false;
-                    }
-                } else {
-                    while (Rs2Inventory.hasItem(item1) && canContinue()) {
-                        Rs2Widget.clickWidget(item1Widget);
-                        sleepGaussian(120, 40);
-                        Rs2Widget.clickWidget(item2Widget);
-                        sleepGaussian(120, 40);
-                    }
-                    return true;
-                }
-
+            // Quick guard: both items must be present
+            if (!Rs2Inventory.hasItem(primary) || !Rs2Inventory.hasItem(secondary)) {
+                debug("Missing items to combine: primary=" + primary + ", secondary=" + secondary);
+                return false;
             }
-            return false;
+
+            Widget invWidget = Rs2Inventory.getInventoryWidget();
+            if (invWidget == null) {
+                debug("Inventory widget not available.");
+                return false;
+            }
+
+            long start = System.currentTimeMillis();
+            final long maxMoveTimeout = TimeUnit.SECONDS.toMillis(8);
+
+            // Helper: ensure an item is in a designated slot (26 or 27)
+            var ensureInSlot = (java.util.function.BiConsumer<Integer, Integer>) (itemId, targetSlot) -> {
+                Rs2ItemModel model = Rs2Inventory.getLast(itemId);
+                if (model == null) return;
+                int slot = model.getSlot();
+                if (slot != targetSlot) {
+                    Rs2Inventory.moveItemToSlot(model, targetSlot);
+                    // wait briefly for inventory change to register
+                    sleepUntil(() -> Rs2Inventory.waitForInventoryChanges(1200), 1500);
+                }
+            };
+
+            // Try to move primary -> 26 and secondary -> 27 (but be tolerant)
+            while (System.currentTimeMillis() - start < maxMoveTimeout) {
+                Rs2ItemModel p = Rs2Inventory.getLast(primary);
+                Rs2ItemModel s = Rs2Inventory.getLast(secondary);
+                if (p == null || s == null) {
+                    debug("Lost track of items while preparing to combine.");
+                    return false;
+                }
+
+                boolean pIn26or27 = (p.getSlot() == 26 || p.getSlot() == 27);
+                boolean sIn26or27 = (s.getSlot() == 26 || s.getSlot() == 27);
+
+                if (pIn26or27 && sIn26or27 && p.getSlot() != s.getSlot()) {
+                    break; // good to go
+                }
+
+                // Move primary into 26 if needed
+                if (!pIn26or27) {
+                    ensureInSlot.accept(primary, 26);
+                }
+                // Move secondary into the other slot
+                s = Rs2Inventory.getLast(secondary); // refresh
+                if (s != null && (s.getSlot() != 26 && s.getSlot() != 27)) {
+                    ensureInSlot.accept(secondary, 27);
+                }
+
+                sleepGaussian(120, 50);
+            }
+
+            // Re-fetch widgets for the two slots and verify
+            invWidget = Rs2Inventory.getInventoryWidget();
+            if (invWidget == null) {
+                debug("Inventory widget disappeared.");
+                return false;
+            }
+            Widget w26 = safeGetChild(invWidget, 26);
+            Widget w27 = safeGetChild(invWidget, 27);
+
+            if (w26 == null || w27 == null) {
+                debug("One or both inventory slot widgets (26/27) are missing. Aborting combine.");
+                return false;
+            }
+
+            // Combine behavior: some combines require a dialogue option
+            if (getCurrentState() == State.COMBINE_PASTRY_DOUGH || getCurrentState() == State.COMBINE_PIZZA_BASE) {
+                String option = (getCurrentState() == State.COMBINE_PASTRY_DOUGH) ? "Pastry dough" : "Pizza base";
+                Rs2Widget.clickWidget(w26);
+                sleepGaussian(80, 30);
+                Rs2Widget.clickWidget(w27);
+                Rs2Dialogue.sleepUntilSelectAnOption();
+                Rs2Dialogue.keyPressForDialogueOption(option);
+                boolean done = sleepUntil(() -> !Rs2Inventory.hasItem(primary), 30000);
+                Rs2Antiban.actionCooldown();
+                return done;
+            } else if (getCurrentState() == State.CUT_PINEAPPLE) {
+                // iterative cutting until pineapple absent or stopped
+                long cutStart = System.currentTimeMillis();
+                final long cutTimeout = TimeUnit.SECONDS.toMillis(12);
+                while (Rs2Inventory.hasItem(ItemID.HOSIDIUS_SERVERY_PINEAPPLE) && canContinue()
+                        && (System.currentTimeMillis() - cutStart) < cutTimeout) {
+                    Rs2Widget.clickWidget(w26);
+                    sleepGaussian(120, 40);
+                    Rs2Widget.clickWidget(w27);
+                    sleepGaussian(120, 40);
+                }
+                // reposition knife to a sensible slot if found
+                Rs2ItemModel knife = Rs2Inventory.getLast(ItemID.KNIFE);
+                if (knife != null) {
+                    int desiredSlot = Rs2Inventory.slotContains(0, ItemID.KNIFE) ? 1 : 0;
+                    Rs2Inventory.moveItemToSlot(knife, desiredSlot);
+                    sleepUntil(() -> Rs2Inventory.waitForInventoryChanges(1500), 1500);
+                    return true;
+                } else {
+                    debug("No knife found after cutting loop.");
+                    return false;
+                }
+            } else {
+                // Generic combine loop: click item1 then item2 repeatedly until primary gone
+                long combineStart = System.currentTimeMillis();
+                final long combineTimeout = TimeUnit.SECONDS.toMillis(15);
+                while (Rs2Inventory.hasItem(primary) && canContinue() &&
+                        (System.currentTimeMillis() - combineStart) < combineTimeout) {
+                    Rs2Widget.clickWidget(w26);
+                    sleepGaussian(90, 30);
+                    Rs2Widget.clickWidget(w27);
+                    sleepGaussian(90, 30);
+                }
+                boolean success = !Rs2Inventory.hasItem(primary);
+                if (!success) debug("Combine timed out or failed for items: " + primary + " + " + secondary);
+                return success;
+            }
         };
     }
+
+    /** small helper to avoid NPE on widget children */
+    private Widget safeGetChild(Widget parent, int idx) {
+        if (parent == null) return null;
+        Widget[] kids = parent.getChildren();
+        if (kids == null || idx < 0 || idx >= kids.length) return null;
+        return kids[idx];
+    }
+
 
     private BooleanSupplier getFood() {
         int itemId;
