@@ -631,9 +631,16 @@ public class TheMessScript extends Script {
                 while (Rs2Inventory.hasItem(ItemID.HOSIDIUS_SERVERY_PINEAPPLE) && canContinue()
                         && (System.currentTimeMillis() - cutStart) < cutTimeout) {
                     Rs2Widget.clickWidget(w26);
-                    sleepGaussian(120, 40);
+                    sleepGaussian(90, 30);
                     Rs2Widget.clickWidget(w27);
-                    sleepGaussian(120, 40);
+                    sleepGaussian(230, 30);
+                    if(Rs2Inventory.hasItem(ItemID.HOSIDIUS_SERVERY_PINEAPPLE) && canContinue())
+                    {
+                        Rs2Widget.clickWidget(w27);
+                        sleepGaussian(90, 30);
+                        Rs2Widget.clickWidget(w26);
+                        sleepGaussian(230, 30);
+                    }
                 }
                 // reposition knife to a sensible slot if found
                 Rs2ItemModel knife = Rs2Inventory.getLast(ItemID.KNIFE);
@@ -655,7 +662,14 @@ public class TheMessScript extends Script {
                     Rs2Widget.clickWidget(w26);
                     sleepGaussian(90, 30);
                     Rs2Widget.clickWidget(w27);
-                    sleepGaussian(90, 30);
+                    sleepGaussian(230, 30);
+                    if(Rs2Inventory.hasItem(primary) && Rs2Inventory.hasItem(secondary) && canContinue())
+                    {
+                        Rs2Widget.clickWidget(w27);
+                        sleepGaussian(90, 30);
+                        Rs2Widget.clickWidget(w26);
+                        sleepGaussian(230, 30);
+                    }
                 }
                 boolean success = !Rs2Inventory.hasItem(primary);
                 if (!success) debug("Combine timed out or failed for items: " + primary + " + " + secondary);
