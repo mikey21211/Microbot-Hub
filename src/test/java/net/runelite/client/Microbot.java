@@ -11,13 +11,14 @@ import net.runelite.client.plugins.microbot.astralrc.AstralRunesPlugin;
 import net.runelite.client.plugins.microbot.autofishing.AutoFishingPlugin;
 import net.runelite.client.plugins.microbot.example.ExamplePlugin;
 import net.runelite.client.plugins.microbot.mess.TheMessPlugin;
+import net.runelite.client.plugins.microbot.woodcutting.AutoWoodcuttingPlugin;
 
 public class Microbot
 {
 
 	private static final Class<?>[] debugPlugins = {
 		AIOFighterPlugin.class,
-            TheMessPlugin.class,
+            AutoWoodcuttingPlugin.class,
             ScreenRotationPlugin.class
 	};
 

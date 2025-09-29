@@ -320,4 +320,26 @@ public interface AutoWoodcuttingConfig extends Config {
      default boolean saplingEvent() {
          return true;
      }
+
+    @ConfigItem(
+            keyName = "enableAutoWoodcutting",
+            name = "Enable Auto Woodcutting",
+            description = "Toggle automatic woodcutting on or off",
+            position = 9, // pick a free position number
+            section = generalSection
+    )
+    default boolean enableAutoWoodcutting() {
+        return true;
+    }
+
+    @ConfigItem(
+            keyName = "disableDropping",
+            name = "Disable Dropping",
+            description = "Prevents the script from dropping logs automatically",
+            position = 10, // next free slot
+            section = generalSection
+    )
+    default boolean disableDropping() {
+        return false;
+    }
 }
