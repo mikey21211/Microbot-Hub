@@ -11,6 +11,7 @@ import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
+import net.runelite.client.plugins.microbot.Microbot;
 import net.runelite.client.plugins.microbot.PluginConstants;
 import net.runelite.client.plugins.microbot.autoGauntletPrayer.AutoGauntletConfig;
 import net.runelite.client.plugins.microbot.util.equipment.Rs2Equipment;
@@ -39,7 +40,7 @@ import static net.runelite.client.plugins.microbot.Microbot.log;
 )
 
 public class AutoGauntletPrayer extends Plugin {
-    public static final String version = "1.0.7";
+    public static final String version = "1.0.8";
     @Inject
     private AutoGauntletConfig config;
     @Provides
@@ -98,8 +99,7 @@ public class AutoGauntletPrayer extends Plugin {
             return;
         }
 
-        HeadIcon headIcon = Rs2Reflection.getHeadIcon(hunllef);
-        System.out.println("Headicon: " + headIcon);
+        HeadIcon headIcon = hunllef.getHeadIcon();
 
         switch (headIcon) {
             case RANGED:
