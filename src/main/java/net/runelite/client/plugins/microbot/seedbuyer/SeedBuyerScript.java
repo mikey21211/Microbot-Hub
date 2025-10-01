@@ -89,15 +89,6 @@ public class SeedBuyerScript extends Script {
                     case CLOSE_SHOP:
                         closeShop();
                         break;
-                    case SUPERGLASS_MAKE:
-                        superglassMake();
-                        break;
-                    case START_GLASSBLOWING:
-                        startGlassblowing();
-                        break;
-                    case WAIT_CRAFTING:
-                        waitCrafting();
-                        break;
                     case OPEN_SELL:
                         openSell();
                         break;
@@ -131,14 +122,9 @@ public class SeedBuyerScript extends Script {
             return;
         }
 
-        boolean hasPipe = Rs2Inventory.contains(BARLEY_SEED);
         boolean hasCoins = Rs2Inventory.hasItemAmount("Coins", 1000);
-        boolean hasAstral = Rs2Inventory.hasItemAmount("Astral rune", 2);
 
-        boolean hasAirSupport = ensureElementSupport("Air rune", 10, HAMMERSTONE_SEED, ASGARNIAN_SEED);
-        boolean hasFireSupport = ensureElementSupport("Fire rune", 6, ROSEMARY_SEED, MARIGOLD_SEED);
-
-        hasSetup = hasPipe && hasCoins && hasAstral && hasAirSupport && hasFireSupport;
+        hasSetup = hasCoins;
         if (!hasSetup) {
             List<String> missing = new ArrayList<>();
             if (!hasCoins) missing.add(">= 1,000 coins");
@@ -168,42 +154,49 @@ public class SeedBuyerScript extends Script {
     }
 
     private void buyMaterials() {
-        int havePotatoSeed = Rs2Inventory.itemQuantity(POTATO_SEED);
-        int haveOnionSeed = Rs2Inventory.itemQuantity(ONION_SEED);
-        int needSeaweed = Math.max(0, 10 - havePotatoSeed);
-        int needSand = Math.max(0, 10 - havePotatoSeed);
-        update("Buy Materials", String.format("Need seaweed %d, sand %d", needSeaweed, needSand), isPrepared, hasSetup);
+        // Stop condition: if Potato or Onion seeds >= 2000
+        int potatoCount = Rs2Inventory.itemQuantity(POTATO_SEED);
+        int onionCount = Rs2Inventory.itemQuantity(ONION_SEED);
+        if (potatoCount >= 2000 || onionCount >= 2000) {
+            Microbot.log("Reached target: Potato=" + potatoCount + ", Onion=" + onionCount + ". Stopping.");
+            return; // stop buying
+        }
 
-        if (needSeaweed <= 0 && needSand <= 0) {
-            isPrepared = true;
-            state = State.CLOSE_SHOP;
+        // List of seeds to buy
+        String[] seeds = {
+                POTATO_SEED,
+                ONION_SEED,
+                CABBAGE_SEED,
+                BARLEY_SEED,
+                ROSEMARY_SEED,
+                MARIGOLD_SEED,
+                HAMMERSTONE_SEED,
+                ASGARNIAN_SEED
+        };
+
+        boolean hasCoins = Rs2Inventory.hasItem("Coins");
+        if (!hasCoins) {
+            Microbot.log("No coins available to buy seeds.");
             return;
         }
 
-        if (needSeaweed > 0 && Rs2Shop.hasStock(POTATO_SEED)) {
-            Rs2Shop.buyItemOptimally(POTATO_SEED, needSeaweed);
-        }
-        if (needSand > 0 && Rs2Shop.hasStock(ONION_SEED)) {
-            Rs2Shop.buyItemOptimally(ONION_SEED, needSand);
+        // Assume all seeds are almost sold out until proven otherwise
+        boolean allLowStock = true;
+
+        for (String seed : seeds) {
+            if (Rs2Shop.hasStock(seed)) {
+                //int stock = Rs2Shop.getStock(seed);
+                //if (stock > 5) {
+                  //  allLowStock = false; // at least one seed worth buying
+                    //Rs2Shop.buyItemOptimally(seed, stock);
+                //}
+            }
         }
 
-        havePotatoSeed = Rs2Inventory.itemQuantity(POTATO_SEED);
-        havePotatoSeed = Rs2Inventory.itemQuantity(ONION_SEED);
-        isPrepared = havePotatoSeed >= 10 && havePotatoSeed >= 10;
-        if (isPrepared) {
-            state = State.CLOSE_SHOP;
-            return;
-        }
-        int remainingSeaweed = Math.max(0, 10 - havePotatoSeed);
-        int remainingSand = Math.max(0, 10 - havePotatoSeed);
-        if (remainingSeaweed > 0 || remainingSand > 0) {
-            update("World Hop", String.format("Still need: seaweed %d, sand %d — hopping", remainingSeaweed, remainingSand), isPrepared, hasSetup);
-            worldHopPending = true;
-            worldHopAttempts = 0;
-            beforeHopWorld = Microbot.getClient().getWorld();
-            if (Rs2Shop.isOpen()) Rs2Shop.closeShop();
-            state = State.WORLD_HOP;
-            return;
+        // If every seed is <= 5 in stock, hop worlds
+        if (allLowStock) {
+            Microbot.log("All seeds nearly sold out (<5 each). Hopping worlds...");
+            //Rs2WorldHopper.hopToNextWorld();
         }
     }
 
