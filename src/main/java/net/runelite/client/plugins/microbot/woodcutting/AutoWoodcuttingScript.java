@@ -106,7 +106,7 @@ public class AutoWoodcuttingScript extends Script {
                 switch (woodcuttingScriptState) {
                     case WOODCUTTING:
                         if (beforeCuttingTreesChecks(config)) return;
-                        if(!config.disableDropping())
+                        if(config.enableAutoWoodcutting())
                         {
                             handleWoodcutting(config);
                         }
@@ -138,6 +138,9 @@ public class AutoWoodcuttingScript extends Script {
         }
 
         if (tree != null) {
+
+            sleepGaussian(681, 120);
+
             if (Rs2GameObject.interact(tree, config.TREE().getAction())) {
                 Rs2Player.waitForAnimation();
                 Rs2Antiban.actionCooldown();
@@ -249,7 +252,7 @@ public class AutoWoodcuttingScript extends Script {
         switch (config.primaryAction()) {
             case DROP:
                 var itemNames = Arrays.stream(config.itemsToKeep().split(",")).map(String::trim).toArray(String[]::new);
-                if(!config.disableDropping())
+                if(config.enableDropping())
                 {
                     Rs2Inventory.dropAllExcept(false, config.interactOrder(), itemNames);
                 }

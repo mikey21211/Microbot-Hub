@@ -333,13 +333,13 @@ public interface AutoWoodcuttingConfig extends Config {
     }
 
     @ConfigItem(
-            keyName = "disableDropping",
-            name = "Disable Dropping",
+            keyName = "enableDropping",
+            name = "Enable Dropping",
             description = "Prevents the script from dropping logs automatically",
             position = 10, // next free slot
             section = generalSection
     )
-    default boolean disableDropping() {
+    default boolean enableDropping() {
         return false;
     }
 }

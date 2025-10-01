@@ -4,9 +4,8 @@ import net.runelite.api.coords.WorldPoint;
 import net.runelite.client.Notifier;
 import net.runelite.client.plugins.microbot.Microbot;
 import net.runelite.client.plugins.microbot.Script;
-import net.runelite.client.plugins.microbot.util.camera.Rs2Camera;
+import net.runelite.client.plugins.microbot.ScreenRotation.ScreenRotationHelper;
 import net.runelite.client.plugins.microbot.util.math.Rs2Random;
-
 import javax.inject.Inject;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -31,7 +30,6 @@ public class ScreenRotationScript extends Script {
             try {
                 if (!Microbot.isLoggedIn()) return;
                 if (!super.run()) return;
-                long startTime = System.currentTimeMillis();
 
                 //Change rotation based on dice roll
                 if(Rs2Random.dicePercentage(0.64)) {
@@ -62,7 +60,7 @@ public class ScreenRotationScript extends Script {
     private void rotateToTargetAngleWithJitter(WorldPoint target) {
 
         // Calculate yaw (left/right)
-        int baseYaw = Rs2Camera.angleToTile(target);
+        int baseYaw = ScreenRotationHelper.angleToTile(target);
         int correctedYaw = (baseYaw - 90 + 360) % 360;
 
         // Add Gaussian overshoot/undershoot
@@ -73,7 +71,7 @@ public class ScreenRotationScript extends Script {
         targetYaw = Math.max(0, Math.min(2048, targetYaw));
 
         // Rotate camera yaw
-        Rs2Camera.setAngle(targetYaw, 10); // 0° threshold for stopping
+        ScreenRotationHelper.setAngle(targetYaw, 10); // 0° threshold for stopping
     }
 
     /**
@@ -87,12 +85,12 @@ public class ScreenRotationScript extends Script {
         float percentage = (float) (clampedPitch - 128) / (383 - 128);
 
         //Rotate camera pitch
-        Rs2Camera.adjustPitch(percentage);
+        ScreenRotationHelper.adjustPitch(percentage);
     }
 
     private void randomCameraZoom()
     {
-        Rs2Camera.setZoom(Rs2Random.betweenInclusive(40,60));
+        ScreenRotationHelper.setZoom(Rs2Random.betweenInclusive(40,60));
     }
 
     private int calculateSleepDuration(double multiplier) {
