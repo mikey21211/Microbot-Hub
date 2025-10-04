@@ -4,10 +4,15 @@ import lombok.RequiredArgsConstructor;
 import net.runelite.api.GameState;
 import net.runelite.client.plugins.microbot.Microbot;
 import net.runelite.client.plugins.microbot.Script;
-import net.runelite.client.plugins.microbot.globval.enums.InterfaceTab;
+import net.runelite.client.plugins.microbot.util.antiban.Rs2Antiban;
+import net.runelite.client.plugins.microbot.util.antiban.Rs2AntibanSettings;
+import net.runelite.client.plugins.microbot.util.antiban.enums.Activity;
+import net.runelite.client.plugins.microbot.util.antiban.enums.ActivityIntensity;
 import net.runelite.client.plugins.microbot.util.equipment.Rs2Equipment;
 import net.runelite.client.plugins.microbot.util.inventory.Rs2Inventory;
+import net.runelite.client.plugins.microbot.util.inventory.Rs2ItemModel;
 import net.runelite.client.plugins.microbot.util.magic.Rs2Magic;
+import net.runelite.client.plugins.microbot.util.math.Rs2Random;
 import net.runelite.client.plugins.microbot.util.npc.Rs2Npc;
 import net.runelite.client.plugins.microbot.util.npc.Rs2NpcModel;
 import net.runelite.client.plugins.microbot.util.player.Rs2Player;
@@ -21,6 +26,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import static net.runelite.client.plugins.microbot.util.shop.Rs2Shop.buyItem;
+
 @RequiredArgsConstructor
 public class SeedBuyerScript extends Script {
     private final SeedBuyerPlugin plugin;
@@ -32,12 +39,8 @@ public class SeedBuyerScript extends Script {
         BUY_MATERIALS,
         WORLD_HOP,
         CLOSE_SHOP,
-        SUPERGLASS_MAKE,
-        START_GLASSBLOWING,
-        WAIT_CRAFTING,
         OPEN_SELL,
         SELL_PRODUCTS,
-        LOOP_OR_STOP,
         STOP
     }
 
@@ -67,6 +70,7 @@ public class SeedBuyerScript extends Script {
         stopRequested = false;
         Microbot.pauseAllScripts.compareAndSet(true, false);
         Microbot.enableAutoRunOn = false;
+        applyAntiBanSettings();
 
         mainScheduledFuture = scheduledExecutorService.scheduleWithFixedDelay(() -> {
             try {
@@ -88,15 +92,6 @@ public class SeedBuyerScript extends Script {
                         break;
                     case CLOSE_SHOP:
                         closeShop();
-                        break;
-                    case OPEN_SELL:
-                        openSell();
-                        break;
-                    case SELL_PRODUCTS:
-                        sellProducts();
-                        break;
-                    case LOOP_OR_STOP:
-                        loopOrStop();
                         break;
                     case STOP:
                         stopRequested = true;
@@ -174,8 +169,7 @@ public class SeedBuyerScript extends Script {
                 ASGARNIAN_SEED
         };
 
-        boolean hasCoins = Rs2Inventory.hasItem("Coins");
-        if (!hasCoins) {
+        if (!Rs2Inventory.hasItem("Coins")) {
             Microbot.log("No coins available to buy seeds.");
             return;
         }
@@ -184,21 +178,29 @@ public class SeedBuyerScript extends Script {
         boolean allLowStock = true;
 
         for (String seed : seeds) {
-            if (Rs2Shop.hasStock(seed)) {
-                //int stock = Rs2Shop.getStock(seed);
-                //if (stock > 5) {
-                  //  allLowStock = false; // at least one seed worth buying
-                    //Rs2Shop.buyItemOptimally(seed, stock);
-                //}
+            // Check if shop has at least 6 of this seed
+            if (Rs2Shop.hasMinimumStock(seed, 6)) {
+                allLowStock = false; // at least one seed worth buying
+                buyItem(seed, String.valueOf(50));
+                sleepGaussian(170, 40);
             }
         }
 
         // If every seed is <= 5 in stock, hop worlds
         if (allLowStock) {
-            Microbot.log("All seeds nearly sold out (<5 each). Hopping worlds...");
-            //Rs2WorldHopper.hopToNextWorld();
+            Microbot.log("All seeds nearly sold out (<6 each). Hopping worlds...");
+            // Rs2WorldHopper.hopToNextWorld();
+
+            worldHopPending = true;
+            worldHopAttempts = 0;
+            beforeHopWorld = Microbot.getClient().getWorld();
+            if (Rs2Shop.isOpen()) Rs2Shop.closeShop();
+            state = SeedBuyerScript.State.WORLD_HOP;
+            return;
         }
+
     }
+
 
     private void worldHop() {
         if (worldHopPending) {
@@ -223,7 +225,7 @@ public class SeedBuyerScript extends Script {
                 }
             }
         }
-        if (worldHopAttempts >= 3) {
+        if (worldHopAttempts >= 5) {
             update("World Hop", "Hop attempts exhausted; retry later", isPrepared, hasSetup);
             worldHopPending = false;
             state = State.BUY_MATERIALS;
@@ -247,139 +249,7 @@ public class SeedBuyerScript extends Script {
     private void closeShop() {
         update("Close Shop", "Closing shop", isPrepared, hasSetup);
         Rs2Shop.closeShop();
-        state = State.SUPERGLASS_MAKE;
-    }
-
-    private void superglassMake() {
-        if (!(isPrepared && hasSetup)) {
-            update("Superglass Make", "Not prepared or setup missing", isPrepared, hasSetup);
-            state = State.STOP;
-            return;
-        }
-        Rs2Tab.switchTo(InterfaceTab.MAGIC);
-        if (!Rs2Magic.canCast(MagicAction.SUPERGLASS_MAKE)) {
-            update("Superglass Make", "Cannot cast Superglass Make", isPrepared, hasSetup);
-            state = State.STOP;
-            return;
-        }
-        update("Superglass Make", "Casting Superglass Make", isPrepared, hasSetup);
-        boolean cast = Rs2Magic.cast(MagicAction.SUPERGLASS_MAKE);
-        if (cast) {
-            sleepUntil(() -> Rs2Inventory.itemQuantity(CABBAGE_SEED) > 0, 5000);
-            if (Rs2Inventory.itemQuantity(CABBAGE_SEED) > 0) {
-                int produced = Rs2Inventory.itemQuantity(CABBAGE_SEED);
-                plugin.addMoltenGlassCrafted(produced);
-                state = State.START_GLASSBLOWING;
-            } else {
-                update("Superglass Make", "No molten glass after cast", isPrepared, hasSetup);
-                state = State.STOP;
-            }
-        }
-    }
-
-    private void startGlassblowing() {
-        update("Start Glassblowing", "Preparing to combine (waiting for animation to end)", isPrepared, hasSetup);
-        sleepUntil(() -> Rs2Inventory.itemQuantity(CABBAGE_SEED) > 0 && !Rs2Player.isAnimating(), 8000);
-        sleep(200);
-
-        update("Start Glassblowing", "Combining pipe with molten glass", isPrepared, hasSetup);
-        boolean combined = false;
-        for (int attempt = 0; attempt < 3 && !combined; attempt++) {
-            combined = Rs2Inventory.combine(
-                    Rs2Inventory.get(BARLEY_SEED),
-                    Rs2Inventory.get(CABBAGE_SEED)
-            );
-            if (!combined) {
-                sleepUntil(() -> !Rs2Player.isAnimating(), 1500);
-                sleep(200);
-            }
-        }
-        if (!combined) {
-            update("Start Glassblowing", "Failed to use pipe on molten glass", isPrepared, hasSetup);
-            state = State.STOP;
-            return;
-        }
-        String target = config.product().widgetName();
-        sleepUntil(Rs2Widget::isProductionWidgetOpen, 5000);
-        boolean selected = false;
-        try {
-            selected = Rs2Widget.clickWidget(target, true)
-                    || Rs2Widget.clickWidget(target, false);
-        } catch (Exception ignored) { }
-
-        if (!selected) {
-            update("Start Glassblowing", "Could not find product in crafting menu: " + target, isPrepared, hasSetup);
-            state = State.STOP;
-            return;
-        }
-
-        update("Wait Crafting", "Making: " + target, isPrepared, hasSetup);
-        state = State.WAIT_CRAFTING;
-    }
-
-    private void waitCrafting() {
-        sleep(600);
-        if (!Rs2Inventory.contains(CABBAGE_SEED)) {
-            state = State.OPEN_SELL;
-        }
-    }
-
-    private void openSell() {
-        if (Rs2Inventory.itemQuantity("Empty light orb") > 0 || Rs2Inventory.itemQuantity("Light orb") > 0) {
-            update("Open Sell", "Dropping Light orbs (unsellable)", isPrepared, hasSetup);
-            Rs2Inventory.dropAll("Empty light orb", "Light orb");
-        }
-
-        update("Open Sell", "Opening shop to sell", isPrepared, hasSetup);
-        boolean opened = Rs2Shop.openShop(TRADER_NAME, true);
-        if (opened && Rs2Shop.isOpen()) state = State.SELL_PRODUCTS;
-    }
-
-    private void sellProducts() {
-        update("Sell Products", "Selling crafted items", isPrepared, hasSetup);
-        for (SeedBuyerConfig.Product p : SeedBuyerConfig.Product.values()) {
-            if ("Empty light orb".equals(p.sellName())) continue;
-            sellAllOf(p.sellName());
-        }
-        isPrepared = false;
-        state = State.BUY_MATERIALS;
-    }
-
-    private void loopOrStop() {
-        isPrepared = false;
-        boolean hasPipe = Rs2Inventory.contains(BARLEY_SEED);
-        boolean hasCoins = Rs2Inventory.hasItemAmount("Coins", 1000);
-        boolean hasAstral = Rs2Inventory.hasItemAmount("Astral rune", 2);
-        boolean hasAirSupport = ensureElementSupport("Air rune", 10, HAMMERSTONE_SEED, ASGARNIAN_SEED);
-        boolean hasFireSupport = ensureElementSupport("Fire rune", 6, ROSEMARY_SEED, MARIGOLD_SEED);
-        hasSetup = hasPipe && hasCoins && hasAstral && hasAirSupport && hasFireSupport;
-
-        if (hasSetup) {
-            update("Loop Or Stop", "Looping for next batch", isPrepared, hasSetup);
-            state = State.OPEN_SHOP;
-        } else {
-            update("Loop Or Stop", "Setup missing; stopping", isPrepared, hasSetup);
-            state = State.STOP;
-        }
-    }
-
-    private void sellAllOf(String name) {
-        if (Rs2Inventory.itemQuantity(name) <= 0) return;
-        while (Rs2Inventory.itemQuantity(name) > 0 && Rs2Shop.isOpen()) {
-            Rs2Inventory.sellItem(name, "50");
-            sleep(250);
-        }
-    }
-
-    
-
-    private boolean hasAnySellableGlassItems() {
-        for (SeedBuyerConfig.Product p : SeedBuyerConfig.Product.values()) {
-            if (Rs2Inventory.itemQuantity(p.sellName()) > 0) {
-                return true;
-            }
-        }
-        return false;
+        state = State.WORLD_HOP;
     }
 
     private void update(String s, String msg, boolean prepared, boolean setup) {
@@ -390,22 +260,23 @@ public class SeedBuyerScript extends Script {
         stopRequested = true;
     }
 
-    private boolean ensureElementSupport(String runeName, int requiredAmount, String staffName, String battlestaffName) {
-        if (Rs2Inventory.hasItemAmount(runeName, requiredAmount)) return true;
-        if (Rs2Equipment.isWearing(staffName) || Rs2Equipment.isWearing(battlestaffName)) return true;
-
-        if (Rs2Inventory.hasItem(staffName)) {
-            if (Rs2Inventory.interact(staffName, "Wield")) {
-                sleepUntil(() -> Rs2Equipment.isWearing(staffName), 5000);
-                if (Rs2Equipment.isWearing(staffName)) return true;
-            }
-        }
-        if (Rs2Inventory.hasItem(battlestaffName)) {
-            if (Rs2Inventory.interact(battlestaffName, "Wield")) {
-                sleepUntil(() -> Rs2Equipment.isWearing(battlestaffName), 5000);
-                if (Rs2Equipment.isWearing(battlestaffName)) return true;
-            }
-        }
-        return false;
+    private void applyAntiBanSettings() {
+        Rs2AntibanSettings.antibanEnabled = true;
+        Rs2AntibanSettings.usePlayStyle = true;
+        Rs2AntibanSettings.simulateFatigue = true;
+        Rs2AntibanSettings.simulateAttentionSpan = true;
+        Rs2AntibanSettings.behavioralVariability = true;
+        Rs2AntibanSettings.nonLinearIntervals = true;
+        Rs2AntibanSettings.naturalMouse = true;
+        Rs2AntibanSettings.moveMouseOffScreen = true;
+        Rs2AntibanSettings.contextualVariability = true;
+        Rs2Antiban.setActivityIntensity(ActivityIntensity.VERY_LOW);
+        Rs2AntibanSettings.dynamicIntensity = false;
+        Rs2AntibanSettings.devDebug = false;
+        Rs2AntibanSettings.moveMouseRandomly = true;
+        Rs2AntibanSettings.actionCooldownChance = 0.082;
+        Rs2AntibanSettings.microBreakChance = 0.7;
+        Rs2AntibanSettings.moveMouseRandomlyChance = 0.1;
     }
+
 }

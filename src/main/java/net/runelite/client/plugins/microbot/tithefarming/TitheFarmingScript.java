@@ -14,6 +14,7 @@ import net.runelite.client.plugins.microbot.tithefarming.enums.TitheFarmLanes;
 import net.runelite.client.plugins.microbot.tithefarming.enums.TitheFarmMaterial;
 import net.runelite.client.plugins.microbot.tithefarming.enums.TitheFarmState;
 import net.runelite.client.plugins.microbot.tithefarming.models.TitheFarmPlant;
+import net.runelite.client.plugins.microbot.util.antiban.Rs2AntibanSettings;
 import net.runelite.client.plugins.microbot.util.dialogues.Rs2Dialogue;
 import net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject;
 import net.runelite.client.plugins.microbot.util.inventory.Rs2Inventory;
@@ -57,6 +58,7 @@ public class TitheFarmingScript extends Script {
 
     public static int initialFruit = 0;
     public static int fruits = 0;
+    private int counter = 0;
 
     public static final int WATERING_CANS_AMOUNT = 8;
 
@@ -175,6 +177,7 @@ public class TitheFarmingScript extends Script {
                 if (!Microbot.isLoggedIn()) return;
                 if (!super.run()) return;
                 if (BreakHandlerScript.isBreakActive()) return;
+                counter++;
 
                 if (init) {
                     state = STARTING;
@@ -255,6 +258,21 @@ public class TitheFarmingScript extends Script {
 
                 if (config.enableDebugging() && plants.stream().anyMatch(x -> x.getGameObject() == null)) {
                     Microbot.showMessage("There is an empty plant gameobject!");
+                }
+
+                // Run once every 10 iterations (≈ once per second)
+                if (counter % 20 == 0) {
+
+                    if (System.currentTimeMillis() % 2 == 0) {
+                        // even second
+                        Rs2AntibanSettings.simulateMistakes = true;
+                    } else {
+                        // odd second
+                        Rs2AntibanSettings.simulateMistakes = false;
+                    }
+
+                    // Reset counter to 0 after reaching 10 to prevent overflow
+                    counter = 0;
                 }
 
             } catch (Exception ex) {

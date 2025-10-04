@@ -99,7 +99,7 @@ public class AutoGauntletPrayer extends Plugin {
             return;
         }
 
-        HeadIcon headIcon = hunllef.getHeadIcon();
+        HeadIcon headIcon = null;
 
         switch (headIcon) {
             case RANGED:
