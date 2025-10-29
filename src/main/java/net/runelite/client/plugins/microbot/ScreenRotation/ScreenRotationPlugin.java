@@ -20,10 +20,6 @@ import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.plugins.microbot.Microbot;
-import net.runelite.client.plugins.microbot.aiofighter.AIOFighterConfig;
-import net.runelite.client.plugins.microbot.shortestpath.ShortestPathPanel;
-import net.runelite.client.plugins.microbot.shortestpath.ShortestPathPlugin;
-import net.runelite.client.plugins.microbot.shortestpath.pathfinder.Pathfinder;
 import net.runelite.client.ui.JagexColors;
 import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.ui.overlay.worldmap.WorldMapPoint;
@@ -36,12 +32,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.*;
 import java.util.List;
-
-import static net.runelite.client.plugins.microbot.shortestpath.ShortestPathPlugin.*;
-import static net.runelite.client.plugins.microbot.shortestpath.ShortestPathPlugin.MARKER_IMAGE;
-import static net.runelite.client.plugins.microbot.shortestpath.ShortestPathPlugin.lastLocation;
-import static net.runelite.client.plugins.microbot.shortestpath.ShortestPathPlugin.marker;
-import static net.runelite.client.plugins.microbot.shortestpath.ShortestPathPlugin.startPointSet;
 
 @PluginDescriptor(
         name = PluginDescriptor.Default + "ScreenRotation",
@@ -99,11 +89,11 @@ public class ScreenRotationPlugin extends Plugin{
 
     public static void setRotateTile(WorldPoint worldPoint)
     {
-        Microbot.getConfigManager().setConfiguration(
+        /*Microbot.getConfigManager().setConfiguration(
                 AIOFighterConfig.GROUP,
                 "safeSpotLocation",
                 worldPoint
-        );
+        );*/
     }
 
     private WorldPoint getSelectedWorldPoint() {

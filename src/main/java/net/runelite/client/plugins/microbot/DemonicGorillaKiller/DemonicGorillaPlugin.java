@@ -11,7 +11,7 @@ import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.plugins.microbot.PluginConstants;
-import net.runelite.client.plugins.microbot.util.containers.FixedSizeQueue;
+//import net.runelite.client.plugins.microbot.util.containers.FixedSizeQueue;
 import net.runelite.client.plugins.microbot.util.misc.TimeUtils;
 import net.runelite.client.plugins.microbot.util.player.Rs2Player;
 import net.runelite.client.ui.overlay.OverlayManager;
@@ -38,7 +38,7 @@ public class DemonicGorillaPlugin extends Plugin {
     public final static String version = "1.2.1";
 
     private static final int DEMONIC_GORILLA_ROCK = 856;
-    public static FixedSizeQueue<WorldPoint> lastLocation = new FixedSizeQueue<>(2);
+    //public static FixedSizeQueue<WorldPoint> lastLocation = new FixedSizeQueue<>(2);
     private ScheduledExecutorService scheduledExecutorService;
     @Inject
     private DemonicGorillaConfig config;
@@ -93,8 +93,8 @@ public class DemonicGorillaPlugin extends Plugin {
     @Subscribe
     public void onGameTick(GameTick gameTick) {
         var currentLocation = Rs2Player.getWorldLocation();
-        DemonicGorillaScript.playerMoved = !lastLocation.contains(currentLocation);
-        lastLocation.add(currentLocation);
+        //DemonicGorillaScript.playerMoved = !lastLocation.contains(currentLocation);
+        //lastLocation.add(currentLocation);
         DemonicGorillaScript.gameTickCount++;
     }
 }

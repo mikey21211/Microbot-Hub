@@ -390,7 +390,7 @@ public class DemonicGorillaScript extends Script {
                 dangerousWorldPoints.add(Microbot.getClient().getLocalPlayer().getWorldLocation());
                 dangerousWorldPoints.add(currentTarget.getWorldLocation());
                 dangerousWorldPoints.add(location);
-                dangerousWorldPoints.addAll(DemonicGorillaPlugin.lastLocation.getAll());
+                //dangerousWorldPoints.addAll(DemonicGorillaPlugin.lastLocation.getAll());
                 if (demonicGorillaRockPosition != null) {
                     dangerousWorldPoints.add(new WorldPoint(demonicGorillaRockPosition.getX(), demonicGorillaRockPosition.getY(), demonicGorillaRockPosition.getWorldView()));
                 }

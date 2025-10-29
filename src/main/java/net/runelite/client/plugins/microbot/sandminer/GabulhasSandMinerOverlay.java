@@ -21,18 +21,18 @@ public class GabulhasSandMinerOverlay extends OverlayPanel {
     private static final Color SUCCESS_COLOR = Color.GREEN;
 
     private final GabulhasSandMinerPlugin plugin;
-    private final ImageComponent image;
+    //private final ImageComponent image;
 
     @Inject
     GabulhasSandMinerOverlay(GabulhasSandMinerPlugin plugin) {
         super(plugin);
         setPosition(OverlayPosition.TOP_LEFT);
         setNaughty();
-        image = new ImageComponent(getMiningImageFromResources());
+        //image = new ImageComponent(getMiningImageFromResources());
         this.plugin = plugin;
     }
 
-    private BufferedImage getMiningImageFromResources() {
+    /*private BufferedImage getMiningImageFromResources() {
         try {
             var img = ImageUtil.loadImageResource(GabulhasSandMinerPlugin.class,
                     "/net/runelite/client/plugins/microbot/sandminer/sandstone.png");
@@ -41,7 +41,7 @@ public class GabulhasSandMinerOverlay extends OverlayPanel {
             e.printStackTrace();
             return null;
         }
-    }
+    }*/
 
     @Override
     public Dimension render(Graphics2D graphics) {
@@ -49,13 +49,13 @@ public class GabulhasSandMinerOverlay extends OverlayPanel {
             panelComponent.setPreferredSize(new Dimension(190, 300));
             panelComponent.setBackgroundColor(BACKGROUND_COLOR);
 
-            final ImageComponent imageComponent = new ImageComponent(getMiningImageFromResources());
+            //final ImageComponent imageComponent = new ImageComponent(getMiningImageFromResources());
             final LineComponent title = LineComponent.builder()
                     .left(" Gabulhas Sand Miner")
                     .leftColor(TITLE_COLOR)
                     .build();
             final SplitComponent iconTitleSplit = SplitComponent.builder()
-                    .first(imageComponent)
+                    //.first(imageComponent)
                     .second(title)
                     .orientation(ComponentOrientation.HORIZONTAL)
                     .gap(new Point(2, 0))

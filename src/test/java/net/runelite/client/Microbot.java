@@ -12,6 +12,7 @@ import net.runelite.client.plugins.microbot.autofishing.AutoFishingPlugin;
 import net.runelite.client.plugins.microbot.example.ExamplePlugin;
 import net.runelite.client.plugins.microbot.mess.TheMessPlugin;
 import net.runelite.client.plugins.microbot.seedbuyer.SeedBuyerPlugin;
+import net.runelite.client.plugins.microbot.thieving.ThievingPlugin;
 import net.runelite.client.plugins.microbot.tithefarming.TitheFarmingPlugin;
 import net.runelite.client.plugins.microbot.woodcutting.AutoWoodcuttingPlugin;
 
@@ -23,7 +24,8 @@ public class Microbot
             AutoWoodcuttingPlugin.class,
             ScreenRotationPlugin.class,
             SeedBuyerPlugin.class,
-            TitheFarmingPlugin.class
+            TitheFarmingPlugin.class,
+            ThievingPlugin.class
 	};
 
     public static void main(String[] args) throws Exception

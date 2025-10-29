@@ -214,7 +214,7 @@ public class ThievingScript extends Script {
     }
 
     private State getCurrentState() {
-        if (getMostExpensiveGroundItemId() != -1) return State.LOOT;
+        //if (getMostExpensiveGroundItemId() != -1)// return State.LOOT;
 
         if (config.escapeAttacking() && (underAttack || isBeingAttackByNpc())) {
             if (!underAttack) underAttack = true;

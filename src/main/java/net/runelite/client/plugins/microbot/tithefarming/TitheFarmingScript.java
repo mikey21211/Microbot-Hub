@@ -261,7 +261,7 @@ public class TitheFarmingScript extends Script {
                 }
 
                 // Run once every 10 iterations (≈ once per second)
-                if (counter % 20 == 0) {
+                if (counter % 10 == 0) {
 
                     if (System.currentTimeMillis() % 2 == 0) {
                         // even second
